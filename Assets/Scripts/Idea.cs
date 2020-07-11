@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class Idea : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    public string text;
+    public float textSize;
+    public int budgetChange, audienceChange, marketFitChange, prodValueChange;
+    public BubbleType bubbleType;
+
+    public Theme[] themes;
+    public Character[] characters;
+    public Event[] events;
+
+    
+
+
 }
+
+public enum BubbleType
+{ }
+
+public enum Theme
+{ }
+
+public enum Character
+{ }
+
+public enum Event
+{ }
