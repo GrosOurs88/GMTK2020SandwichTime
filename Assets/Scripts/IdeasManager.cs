@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class IdeasManager : MonoBehaviour
 {
+    public string ideaXMLPath;
+
+
+    private IdeaContainer ideaContainer;
+
 
     void Awake()
     {
-        //parse xml
+        ideaContainer = IdeaContainer.Load(ideaXMLPath);
 
         //create idea list
     }
