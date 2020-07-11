@@ -80,6 +80,7 @@ public class BrainstormManager : MonoBehaviour
         activeIdeas.Remove(idea);
         
         if(requestUI)
+        { }
             //request idea removal from the UI manager
     }
 }
