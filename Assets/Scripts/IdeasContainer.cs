@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
+using UnityEngine;
 
 
 [XmlRoot("IdeaCollection")]
@@ -11,24 +12,47 @@ public class IdeasContainer
     [XmlArrayItem("Idea")]
     public List<Idea> ideas = new List<Idea>();
 
+    private static string Path = Application.streamingAssetsPath + "/IdeaCollection.xml";
 
-    public void Save(string path)
+    public void Save()
     {
         var serializer = new XmlSerializer(typeof(IdeasContainer));
 
-        using (var stream = new FileStream(path, FileMode.Create))
+        using (var stream = new FileStream(Path, FileMode.Create))
         {
             serializer.Serialize(stream, this);
         }
     }
 
-    public static IdeasContainer Load(string path)
+    public static IdeasContainer Load()
     {
         var serializer = new XmlSerializer(typeof(IdeasContainer));
 
-        using (var stream = new FileStream(path, FileMode.Open))
-        {
-            return serializer.Deserialize(stream) as IdeasContainer;
-        }
+        return serializer.Deserialize(new FileStream(Path, FileMode.Open)) as IdeasContainer;
     }
+
+    /*
+    public static IdeasContainer CreateEmpty()
+    {
+        return new IdeasContainer();
+    }
+
+    public void CreateTemplate()
+    {
+        ideas = new List<Idea>();
+
+        Idea id = new Idea
+        {
+            text = "this is a test dialog",
+            themes = new Theme[2],
+            characters = new Character[1]
+            {
+                new Character{name = "Fabrice", bubbleColor = Color.yellow}
+            }
+        };
+
+        ideas.Add(id);
+
+        Save();
+    }*/
 }

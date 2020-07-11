@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<IdeaCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Ideas>
+    <Idea>
+      <text>this is a test dialog</text>
+      <fontSize>42</fontSize>
+      <bubbleWidth>0</bubbleWidth>
+      <budgetChange>0</budgetChange>
+      <audienceChange>0</audienceChange>
+      <marketFitChange>0</marketFitChange>
+      <prodValueChange>0</prodValueChange>
+      <bubbleType>Count</bubbleType>
+      <Themes>
+        <Theme>Count</Theme>
+        <Theme>Count</Theme>
+      </Themes>
+      <Characters>
+        <Character>Count</Character>
+      </Characters>
+    </Idea>
+  </Ideas>
+</IdeaCollection>

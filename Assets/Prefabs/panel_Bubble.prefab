@@ -166,6 +166,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5878686212434037158}
   - component: {fileID: 6081329374955702639}
+  - component: {fileID: 943055330161181672}
+  - component: {fileID: 264712935780874345}
   m_Layer: 5
   m_Name: panel_Bubble
   m_TagString: Untagged
@@ -203,6 +205,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3578502534610842871}
   m_CullTransparentMesh: 0
+--- !u!225 &943055330161181672
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578502534610842871}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &264712935780874345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578502534610842871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d200c8353f61e5d4fb34fb13f12134b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 4896142504796157375}
+  characterImage: {fileID: 38730081823605939}
+  bubbleBackground: {fileID: 105478141761391964}
+  canvasGroup: {fileID: 943055330161181672}
 --- !u!1 &5821090886412163282
 GameObject:
   m_ObjectHideFlags: 0
