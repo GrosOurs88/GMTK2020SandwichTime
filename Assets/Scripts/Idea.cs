@@ -39,6 +39,8 @@ public enum Event
 {
     Count
 }
+
+public class Character
 {
     public string name;
     public Color bubbleColor;
