@@ -5,14 +5,8 @@ using UnityEngine;
 public class RoomController : MonoBehaviour
 {
     public GameObject bubblesContainer;
+    public GameObject bubblePrefab;
 
-    void Start()
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
+
 }
