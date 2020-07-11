@@ -16,6 +16,8 @@ public class BrainstormManager : MonoBehaviour
 
     private float elapsedTime = 0;
     private bool brainstormStarted = false;
+    public RoomController roomController;
+
     private int currentCheckedTimeStamp = 0;
 
     private IdeasContainer ideaContainer;

@@ -10,6 +10,8 @@ public class Bubble : MonoBehaviour
     public CanvasGroup canvasGroup;
     public float fadeOutTime;
 
+    public RectTransform rectTransform;
+
     public void Setup(Idea idea)
     {
         text.text = idea.text;
