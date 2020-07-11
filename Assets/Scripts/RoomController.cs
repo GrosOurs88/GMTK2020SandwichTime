@@ -9,8 +9,6 @@ public class RoomController : MonoBehaviour
 
     public float bubblesHeightMargin = 30f;
 
-    public Bubble first_bubble;
-
     public void DisplayIdeaBubble (Idea idea)
     {
         int character = idea.characters[Random.Range(0, idea.characters.Length)];
