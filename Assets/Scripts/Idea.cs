@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
+[XmlRoot("IdeaRoot")]
 public class Idea
 {
 
@@ -11,8 +13,16 @@ public class Idea
     public int budgetChange, audienceChange, marketFitChange, prodValueChange;
     public BubbleType bubbleType;
 
+    [XmlArray("Themes")]
+    [XmlArrayItem("Theme")]
     public Theme[] themes;
+
+    [XmlArray("Characters")]
+    [XmlArrayItem("Character")]
     public Character[] characters;
+
+    [XmlArray("Events")]
+    [XmlArrayItem("Event")]
     public Event[] events;
 
 
