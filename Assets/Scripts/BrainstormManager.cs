@@ -32,6 +32,9 @@ public class BrainstormManager : MonoBehaviour
 
     void Start()
     {
+        roomController.IdeaDiscarded += desactivateIdea;
+        roomController.IdeaSelected += desactivateIdea;
+
         activeIdeas = new List<Idea>();
         timeStamps = new float[bubbleAmount];
 
@@ -85,22 +88,27 @@ public class BrainstormManager : MonoBehaviour
 
         if (activeIdeas.Count > MaxIdeaQueue)
         {
-            desactivateIdea(activeIdeas[0] ,true);
+            desactivateIdeaRequest(activeIdeas[0]);
         }
     }
 
-    public void desactivateIdea(Idea idea, bool requestUI)
+    public void desactivateIdeaRequest(Idea idea)
     {
         //desactivateIdea() can be called by the UI manager because he detected an idea removal from the user (he then deletes the idea sprite from the screen itself)
         //OR it can be called via an event then you must tell the UI manager to remove the idea sprite from the screen.
 
         activeIdeas.Remove(idea);
 
-        if(requestUI)
-        {
-            //request idea removal from the UI manager
-            roomController.RemoveBubble(idea);
-        }
+        //request idea removal from the UI manager
+        roomController.RemoveBubble(idea);
+
+    }
+
+
+    public void desactivateIdea(Idea idea)
+    {
+
+        activeIdeas.Remove(idea);
     }
 
     private Idea getRandomIdea()
