@@ -2,7 +2,70 @@
 <IdeaCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Ideas>
     <Idea>
-      <text>this is a test dialog</text>
+      <text>this is the first test dialog</text>
+      <fontSize>42</fontSize>
+      <bubbleWidth>0</bubbleWidth>
+      <budgetChange>0</budgetChange>
+      <audienceChange>0</audienceChange>
+      <marketFitChange>0</marketFitChange>
+      <prodValueChange>0</prodValueChange>
+      <bubbleType>Count</bubbleType>
+      <Themes>
+        <Theme>Count</Theme>
+        <Theme>Count</Theme>
+      </Themes>
+      <Characters>
+        <Character>0</Character>
+        <Character>1</Character>
+        <Character>2</Character>
+        <Character>3</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>this is the second test dialog</text>
+      <fontSize>42</fontSize>
+      <bubbleWidth>0</bubbleWidth>
+      <budgetChange>0</budgetChange>
+      <audienceChange>0</audienceChange>
+      <marketFitChange>0</marketFitChange>
+      <prodValueChange>0</prodValueChange>
+      <bubbleType>Count</bubbleType>
+      <Themes>
+        <Theme>Count</Theme>
+        <Theme>Count</Theme>
+      </Themes>
+      <Characters>
+        <Character>0</Character>
+        <Character>1</Character>
+        <Character>2</Character>
+        <Character>3</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>this is the third test dialog</text>
+      <fontSize>42</fontSize>
+      <bubbleWidth>0</bubbleWidth>
+      <budgetChange>0</budgetChange>
+      <audienceChange>0</audienceChange>
+      <marketFitChange>0</marketFitChange>
+      <prodValueChange>0</prodValueChange>
+      <bubbleType>Count</bubbleType>
+      <Themes>
+        <Theme>Count</Theme>
+        <Theme>Count</Theme>
+      </Themes>
+      <Characters>
+        <Character>0</Character>
+        <Character>1</Character>
+        <Character>2</Character>
+        <Character>3</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>this is the fourth test dialog</text>
       <fontSize>42</fontSize>
       <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>

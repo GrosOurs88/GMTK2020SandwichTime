@@ -56,7 +56,7 @@ public class BrainstormManager : MonoBehaviour
             {
                 if (elapsedTime >= timeStamps[currentCheckedTimeStamp])
                 {
-                    Debug.Log("display bubble");
+                    
 
                     activateIdea(getRandomIdea());
                     currentCheckedTimeStamp++;
@@ -79,10 +79,14 @@ public class BrainstormManager : MonoBehaviour
         //this function mimics a queue behaviour by removing the first component of the list if the number of component exceeds the maximum amount
 
         activeIdeas.Add(idea);
-        //request idea display to UI manager
+        roomController.DisplayIdeaBubble(idea);
+
+        Debug.Log("display bubble");
 
         if (activeIdeas.Count > MaxIdeaQueue)
-            activeIdeas.RemoveAt(0);
+        {
+            desactivateIdea(activeIdeas[0] ,true);
+        }
     }
 
     public void desactivateIdea(Idea idea, bool requestUI)
@@ -92,10 +96,11 @@ public class BrainstormManager : MonoBehaviour
 
         activeIdeas.Remove(idea);
 
-        
         if(requestUI)
-        { }
+        {
             //request idea removal from the UI manager
+            roomController.RemoveBubble(idea);
+        }
     }
 
     private Idea getRandomIdea()
