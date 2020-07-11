@@ -9,13 +9,15 @@ public class RoomController : MonoBehaviour
 
     public float bubblesHeightMargin = 30f;
 
+    public delegate void BubbleEventHandler(Idea idea);
+    public event BubbleEventHandler IdeaSelected;
+    public event BubbleEventHandler IdeaDiscarded;
+
     private List<Bubble> displayedBubbles;
 
     public void Start()
     {
         displayedBubbles = new List<Bubble>();
-
-        //TODO subscribe RemoveBubble to the events "choose idea" and "ideaDiscarded"
     }
 
     public void DisplayIdeaBubble (Idea idea)
@@ -23,7 +25,7 @@ public class RoomController : MonoBehaviour
         int character = idea.characters[Random.Range(0, idea.characters.Length)];
         Bubble bubble = Instantiate(bubblePrefabs[character], bubblesContainer).GetComponent<Bubble>();
 
-        bubble.Setup(idea);
+        bubble.Setup(idea, this);
 
         float randomized_height = Random.Range(
             bubblesContainer.rect.height * -0.5f + bubblesHeightMargin,
@@ -35,10 +37,21 @@ public class RoomController : MonoBehaviour
         displayedBubbles.Add(bubble);
     }
 
-    public void RemoveBubble( Idea idea )
+    public void RemoveBubble(Idea idea)
     {
         Bubble removed_bubble = displayedBubbles.Find(x => x.myIdea == idea);
         removed_bubble.Kill();
         displayedBubbles.Remove(removed_bubble);
+    }
+
+    public void SelectIdeaBubble(Idea idea, Bubble bubble)
+    {
+        IdeaSelected?.Invoke(idea);
+        displayedBubbles.Remove(bubble);
+    }
+    public void DiscardIdeaBubble(Idea idea, Bubble bubble)
+    {
+        IdeaDiscarded?.Invoke(idea);
+        displayedBubbles.Remove(bubble);
     }
 }

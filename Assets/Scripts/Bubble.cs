@@ -7,14 +7,17 @@ using UnityEngine.UI;
 public class Bubble : MonoBehaviour
 {
     public Idea myIdea;
+    public RoomController roomController;
+
     public TMP_Text text;
     public CanvasGroup canvasGroup;
     public float fadeOutTime;
 
     public RectTransform rectTransform;
 
-    public void Setup(Idea idea)
+    public void Setup(Idea idea, RoomController room_controller)
     {
+        roomController = room_controller;
         myIdea = idea;
         text.text = idea.text;
     }
@@ -32,5 +35,28 @@ public class Bubble : MonoBehaviour
             canvasGroup.alpha = Mathf.Lerp(1f, 0f, t);
             yield return null;
         }
+    }
+
+    public void OnButtonClicked()
+    {
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+            OnDiscarded();
+        }
+        else
+        {
+            OnSelected();
+        }
+    }
+
+    public void OnSelected()
+    {
+        roomController.SelectIdeaBubble(myIdea, this);
+        Destroy(gameObject);
+    }
+    public void OnDiscarded()
+    {
+        roomController.DiscardIdeaBubble(myIdea, this);
+        Destroy(gameObject);
     }
 }
