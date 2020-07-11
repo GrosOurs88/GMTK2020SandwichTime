@@ -250,8 +250,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cb28eb0e85a1548bdfe7308dba8bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brainstormTime: 0
-  bubbleAmount: 0
+  brainstormTime: 10
+  bubbleAmount: 1
+  MaxIdeaQueue: 5
+  brainstormStarted: 0
 --- !u!4 &564108789
 Transform:
   m_ObjectHideFlags: 0
