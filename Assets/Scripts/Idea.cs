@@ -7,7 +7,7 @@ public class Idea
 
     
     public string text;
-    public float fontSize, bubbleWidth; //bubbleWidth is a percentage
+    public float fontSize = 42, bubbleWidth; //bubbleWidth is a percentage
     public int budgetChange, audienceChange, marketFitChange, prodValueChange;
     public BubbleType bubbleType;
 
@@ -15,9 +15,13 @@ public class Idea
     public Character[] characters;
     public Event[] events;
 
-    
 
-
+    //public Idea(string _text, float _fontSize, float _bubbleWidth, int _budgetChange, int _audienceChange, int _marketFitChange, int _prodValueChange, BubbleType _bubbleType)
+    //{
+    //    themes = null;
+    //    characters = null;
+    //    events = null;
+    //}
 }
 
 public enum BubbleType
@@ -30,12 +34,14 @@ public enum Theme
     Count
 }
 
-public enum Character
-{
-    Count
-}
 
 public enum Event
 {
     Count
+}
+{
+    public string name;
+    public Color bubbleColor;
+
+
 }
