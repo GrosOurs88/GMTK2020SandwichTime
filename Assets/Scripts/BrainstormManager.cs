@@ -5,10 +5,6 @@ using UnityEngine;
 
 public class BrainstormManager : MonoBehaviour
 {
-    [Header ("XML")]
-    public string ideaXMLPath;
-
-    private IdeasContainer ideaContainer;
 
     [Header ("Brainstorm")]
     public float brainstormTime;
@@ -21,12 +17,13 @@ public class BrainstormManager : MonoBehaviour
     private bool brainstormStarted = false;
     private int currentCheckedTimeStamp = 0;
 
+    private IdeasContainer ideaContainer;
     private List<Idea> activeIdeas;
 
 
     void Awake()
     {
-        ideaContainer = IdeasContainer.Load(ideaXMLPath);
+        ideaContainer = IdeasContainer.Load();
     }
 
     void Start()
