@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdeasManager : MonoBehaviour
+public class IdeasContainer : MonoBehaviour
 {
     public string ideaXMLPath;
 
