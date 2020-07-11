@@ -50,10 +50,7 @@ public enum Event
     Count
 }
 
-public class Character
+public enum Character
 {
-    public string name;
-    public Color bubbleColor;
-
-
+    Count
 }

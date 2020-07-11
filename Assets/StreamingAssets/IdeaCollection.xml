@@ -15,15 +15,7 @@
         <Theme>Count</Theme>
       </Themes>
       <Characters>
-        <Character>
-          <name>Fabrice</name>
-          <bubbleColor>
-            <r>1</r>
-            <g>0.921568632</g>
-            <b>0.0156862754</b>
-            <a>1</a>
-          </bubbleColor>
-        </Character>
+        <Character>Count</Character>
       </Characters>
     </Idea>
   </Ideas>
