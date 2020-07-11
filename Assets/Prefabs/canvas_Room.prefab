@@ -112,9 +112,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5243104b03ba244e89135bf1bf65e68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubblesContainer: {fileID: 8462144286955645301}
-  bubblePrefab: {fileID: 3578502534610842871, guid: 4d9f92cb8b996944d9158c4262d0031e,
-    type: 3}
+  bubblesContainer: {fileID: 5564705429692088186}
+  bubblePrefabs:
+  - {fileID: 7514811575089274602, guid: 34bb2b1f097710e4a966203598d64a4b, type: 3}
+  - {fileID: 7514811575089274602, guid: 66a38fced6dc2de499b6e229732e8c1d, type: 3}
+  - {fileID: 7514811575089274602, guid: c8e91cfca5b4386458d5699b711cc3c2, type: 3}
+  - {fileID: 7514811575089274602, guid: 9cbdc85bea85dec4c8133a275ca1df9e, type: 3}
+  bubblesHeightMargin: 30
+  first_bubble: {fileID: 0}
 --- !u!1 &8462144286955645301
 GameObject:
   m_ObjectHideFlags: 0

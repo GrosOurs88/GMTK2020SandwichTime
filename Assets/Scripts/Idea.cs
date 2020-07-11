@@ -19,7 +19,7 @@ public class Idea
 
     [XmlArray("Characters")]
     [XmlArrayItem("Character")]
-    public Character[] characters;
+    public int[] characters;
 
     [XmlArray("Events")]
     [XmlArrayItem("Event")]
@@ -50,10 +50,7 @@ public enum Event
     Count
 }
 
-public class Character
+public enum Character
 {
-    public string name;
-    public Color bubbleColor;
-
-
+    Count
 }
