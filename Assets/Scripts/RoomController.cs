@@ -11,6 +11,13 @@ public class RoomController : MonoBehaviour
 
     private List<Bubble> displayedBubbles;
 
+    public void Start()
+    {
+        displayedBubbles = new List<Bubble>();
+
+        //TODO subscribe RemoveBubble to the events "choose idea" and "ideaDiscarded"
+    }
+
     public void DisplayIdeaBubble (Idea idea)
     {
         int character = idea.characters[Random.Range(0, idea.characters.Length)];
