@@ -7,7 +7,7 @@ public class Idea : MonoBehaviour
 
 
     public string text;
-    public float textSize;
+    public float fontSize, bubbleWidth; //bubbleWidth is a percentage
     public int budgetChange, audienceChange, marketFitChange, prodValueChange;
     public BubbleType bubbleType;
 
