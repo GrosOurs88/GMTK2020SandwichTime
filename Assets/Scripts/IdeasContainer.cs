@@ -1,20 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-
-public class IdeasContainer : MonoBehaviour
-{
-    public string ideaXMLPath;
+using System.Xml.Serialization;
+using System.IO;
 
 
-    private IdeaContainer ideaContainer;
+[XmlRoot("IdeaCollection")]
+public class IdeasContainer
+{    
+    [XmlArray("Ideas")]
+    [XmlArrayItem("Idea")]
+    public List<Idea> ideas = new List<Idea>();
 
 
-    void Awake()
+    public void Save(string path)
     {
-        ideaContainer = IdeaContainer.Load(ideaXMLPath);
+        var serializer = new XmlSerializer(typeof(IdeasContainer));
 
-        //create idea list
+        using (var stream = new FileStream(path, FileMode.Create))
+        {
+            serializer.Serialize(stream, this);
+        }
     }
 
+    public static IdeasContainer Load(string path)
+    {
+        var serializer = new XmlSerializer(typeof(IdeasContainer));
+
+        using (var stream = new FileStream(path, FileMode.Open))
+        {
+            return serializer.Deserialize(stream) as IdeasContainer;
+        }
+    }
 }

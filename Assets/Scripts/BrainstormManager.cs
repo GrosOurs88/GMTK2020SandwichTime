@@ -4,23 +4,35 @@ using UnityEngine;
 
 public class BrainstormManager : MonoBehaviour
 {
+    [Header ("XML")]
+    public string ideaXMLPath;
+
+    private IdeasContainer ideaContainer;
+
+    [Header ("Brainstorm")]
     public float brainstormTime;
     public int bubbleAmount;
 
     private float[] timeStamps;
 
-    // Start is called before the first frame update
+
+    void Awake()
+    {
+        ideaContainer = IdeasContainer.Load(ideaXMLPath);
+
+        //create idea list
+    }
+
     void Start()
     {
         timeStamps = new float[bubbleAmount];
 
-        for(int i = 0; i < timeStamps.Length; i+)
+        for(int i = 0; i < timeStamps.Length; i++)
         {
             timeStamps[i] = Random.Range(0, brainstormTime - 2); //-2 so the player has min 2 second to read the last bubble;
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
