@@ -5,7 +5,7 @@ using UnityEngine;
 public class Idea
 {
 
-
+    
     public string text;
     public float fontSize = 42, bubbleWidth; //bubbleWidth is a percentage
     public int budgetChange, audienceChange, marketFitChange, prodValueChange;
@@ -25,14 +25,20 @@ public class Idea
 }
 
 public enum BubbleType
-{ }
+{
+    Count
+}
 
 public enum Theme
-{ }
+{
+    Count
+}
 
 
 public enum Event
-{ }
+{
+    Count
+}
 
 public class Character
 {
