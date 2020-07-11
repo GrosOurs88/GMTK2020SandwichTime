@@ -15,13 +15,14 @@ public class BrainstormManager : MonoBehaviour
     private float[] timeStamps;
 
     private float elapsedTime = 0;
-    private bool brainstormStarted = false;
+    public bool brainstormStarted = false;
     public RoomController roomController;
 
     private int currentCheckedTimeStamp = 0;
 
     private IdeasContainer ideaContainer;
     private List<Idea> activeIdeas;
+    private List<Idea> ideas;
 
 
     void Awake()
@@ -31,6 +32,7 @@ public class BrainstormManager : MonoBehaviour
 
     void Start()
     {
+        activeIdeas = new List<Idea>();
         timeStamps = new float[bubbleAmount];
 
         for(int i = 0; i < timeStamps.Length; i++)
@@ -40,6 +42,8 @@ public class BrainstormManager : MonoBehaviour
 
         Array.Sort(timeStamps);
 
+        startBrainstorm();
+
     }
 
     void Update()
@@ -48,22 +52,26 @@ public class BrainstormManager : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
 
-            if(elapsedTime >= timeStamps[currentCheckedTimeStamp])
+            if (currentCheckedTimeStamp < timeStamps.Length)
             {
-                //activateIdea(here get a random idea from the idea container);
+                if (elapsedTime >= timeStamps[currentCheckedTimeStamp])
+                {
+                    Debug.Log("display bubble");
 
-                Debug.Log("display bubble");
-
-                if(currentCheckedTimeStamp < timeStamps.Length - 1)
-                    currentCheckedTimeStamp++ ;
+                    activateIdea(getRandomIdea());
+                    currentCheckedTimeStamp++;
+                }
             }
         }
+
     }
 
     void startBrainstorm()
     {
         brainstormStarted = true;
         elapsedTime = 0;
+
+        ideas = ideaContainer.ideas;
     }
 
     public void activateIdea(Idea idea)
@@ -88,5 +96,18 @@ public class BrainstormManager : MonoBehaviour
         if(requestUI)
         { }
             //request idea removal from the UI manager
+    }
+
+    private Idea getRandomIdea()
+    {
+        if(ideas.Count <= 0)
+        {
+            Debug.LogError("Ran out of ideas, the amount of ideas in the xml should be higher or equal to the bubbleAmount");
+        }
+
+        Idea idea = ideas[UnityEngine.Random.Range(0, ideas.Count)];
+        ideas.Remove(idea);
+
+        return idea;
     }
 }
