@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Bubble : MonoBehaviour
 {
+    public Idea myIdea;
     public TMP_Text text;
     public CanvasGroup canvasGroup;
     public float fadeOutTime;
@@ -14,6 +15,7 @@ public class Bubble : MonoBehaviour
 
     public void Setup(Idea idea)
     {
+        myIdea = idea;
         text.text = idea.text;
     }
 
