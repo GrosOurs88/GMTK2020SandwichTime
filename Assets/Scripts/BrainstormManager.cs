@@ -19,8 +19,6 @@ public class BrainstormManager : MonoBehaviour
     void Awake()
     {
         ideaContainer = IdeasContainer.Load(ideaXMLPath);
-
-        //create idea list
     }
 
     void Start()
