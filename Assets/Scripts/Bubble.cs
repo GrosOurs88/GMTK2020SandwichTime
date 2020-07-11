@@ -7,12 +7,26 @@ using UnityEngine.UI;
 public class Bubble : MonoBehaviour
 {
     public TMP_Text text;
-    public Image characterImage;
-    public Image bubbleBackground;
     public CanvasGroup canvasGroup;
+    public float fadeOutTime;
+
+    public void Setup(Idea idea)
+    {
+        text.text = idea.text;
+    }
 
     public void Kill()
     {
-        //TODO coroutine alpha to 0 then destroy
+        Destroy(gameObject, fadeOutTime + 1f);
+        StartCoroutine("FadeOutAndDie");
+    }
+
+    IEnumerator FadeOutAndDie()
+    {
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / fadeOutTime)
+        {
+            canvasGroup.alpha = Mathf.Lerp(1f, 0f, t);
+            yield return null;
+        }
     }
 }
