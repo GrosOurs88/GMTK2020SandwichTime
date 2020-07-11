@@ -19,7 +19,7 @@ public class Idea
 
     [XmlArray("Characters")]
     [XmlArrayItem("Character")]
-    public Character[] characters;
+    public int[] characters;
 
     [XmlArray("Events")]
     [XmlArrayItem("Event")]

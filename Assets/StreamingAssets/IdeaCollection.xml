@@ -15,7 +15,10 @@
         <Theme>Count</Theme>
       </Themes>
       <Characters>
-        <Character>Count</Character>
+        <Character>0</Character>
+        <Character>1</Character>
+        <Character>2</Character>
+        <Character>3</Character>
       </Characters>
     </Idea>
   </Ideas>
