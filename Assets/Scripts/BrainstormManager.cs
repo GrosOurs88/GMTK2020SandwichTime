@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class BrainstormManager : MonoBehaviour
 {
+    [Header ("XML")]
+    public string ideaXMLPath;
+
+    private IdeasContainer ideaContainer;
+
+    [Header ("Brainstorm")]
     public float brainstormTime;
     public int bubbleAmount;
 
@@ -14,7 +20,12 @@ public class BrainstormManager : MonoBehaviour
     private bool brainstormStarted = false;
     private int currentCheckedTimeStamp = 0;
 
-    // Start is called before the first frame update
+
+    void Awake()
+    {
+        ideaContainer = IdeasContainer.Load(ideaXMLPath);
+    }
+
     void Start()
     {
         timeStamps = new float[bubbleAmount];
@@ -28,7 +39,6 @@ public class BrainstormManager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(brainstormStarted && elapsedTime <= brainstormTime)
