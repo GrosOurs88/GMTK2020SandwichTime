@@ -14,6 +14,7 @@ public class BrainstormManager : MonoBehaviour
     public float brainstormTime;
     public int bubbleAmount;
 
+    public int MaxIdeaQueue;
 
     private float[] timeStamps;
 
@@ -66,18 +67,24 @@ public class BrainstormManager : MonoBehaviour
         elapsedTime = 0;
     }
 
-    void activateIdea(Idea idea)
+    public void activateIdea(Idea idea)
     {
+        //this function mimics a queue behaviour by removing the first component of the list if the number of component exceeds the maximum amount
+
         activeIdeas.Add(idea);
         //request idea display to UI manager
+
+        if (activeIdeas.Count > MaxIdeaQueue)
+            activeIdeas.RemoveAt(0);
     }
 
-    void desactivateIdea(Idea idea, bool requestUI)
+    public void desactivateIdea(Idea idea, bool requestUI)
     {
         //desactivateIdea() can be called by the UI manager because he detected an idea removal from the user (he then deletes the idea sprite from the screen itself)
         //OR it can be called via an event then you must tell the UI manager to remove the idea sprite from the screen.
 
         activeIdeas.Remove(idea);
+
         
         if(requestUI)
         { }
