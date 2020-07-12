@@ -35,7 +35,7 @@ public class PostItInstanciationScript : MonoBehaviour
         Image newPostIt = Instantiate(postIt, panelPostIt.transform);
 
         newPostIt.transform.localPosition = new Vector3(X, Y, transform.position.z);
-        newPostIt.GetComponent<Image>().sprite = postItSprite[_idea.characters[0]];
+        newPostIt.GetComponent<Image>().sprite = postItSprite[(int)_idea.characters[0]];
         newPostIt.transform.Rotate(0f, 0f, Random.Range(0f, 360f));
     }
 }

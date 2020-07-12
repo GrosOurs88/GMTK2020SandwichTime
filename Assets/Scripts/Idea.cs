@@ -33,13 +33,13 @@ public enum Theme
 {
     pirate,
     scifi,
-    space,
     fantasy,
     western,
     historical,
     nature,
     kid,
     postapo,
+    romance,
     count
 }
 
