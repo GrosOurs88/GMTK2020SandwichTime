@@ -106,7 +106,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     {
         Vector3 mouse_movement = Input.mousePosition - moveMouseStartPosition;
 
-        if (mouse_movement.magnitude < rectTransform.rect.width * 0.3f)
+        if (mouse_movement.magnitude < rectTransform.rect.width * 0.15f)
         {
             bubbleGroup.position = moveBubbleStartPosition;
             return;
