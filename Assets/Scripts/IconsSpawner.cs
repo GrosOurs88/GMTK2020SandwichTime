@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IconsSpawner : MonoBehaviour
 {
+    public RoomController roomController;
     public GameObject iconPrefab;
     public float iconSpawnDelay = 0.2f;
     public RectTransform[] iconSpawnPositions;
@@ -16,11 +17,7 @@ public class IconsSpawner : MonoBehaviour
     private void Awake()
     {
         IconToSpawnQueue = new List<Sprite>();
-
-        //DEBUG
-        QueueIconSpawn(IconType.Budget, 4);
-        QueueIconSpawn(IconType.Appeal, 2);
-        QueueIconSpawn(IconType.Audience, 7);
+        roomController.IdeaSelected += OnIdeaSelected;
     }
 
     private void Update()
@@ -41,6 +38,18 @@ public class IconsSpawner : MonoBehaviour
                     timeSinceLastSpawn = iconSpawnDelay;
                 }
             }
+        }
+    }
+
+    private void OnIdeaSelected( Idea idea )
+    {
+        QueueIconSpawn(IconType.Budget, idea.budgetChange);
+        QueueIconSpawn(IconType.Appeal, idea.appealing);
+        QueueIconSpawn(IconType.Audience, idea.pegi);
+
+        foreach (Theme theme in idea.themes)
+        {
+            QueueIconSpawn(theme);
         }
     }
     
@@ -111,9 +120,7 @@ public class IconsSpawner : MonoBehaviour
                     break;
                 }
         }
-        
     }
-
 }
 
 public enum IconType
