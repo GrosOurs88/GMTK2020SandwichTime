@@ -26,7 +26,7 @@ public class WhiteBoardManager : MonoBehaviour
         int pegi = 3;
         float appealing = 0;
         List<Theme> usedThemes = new List<Theme>();
-        List<int> themeOccurrence = new List<int>();
+        //List<int> themeOccurrence = new List<int>();
 
         foreach (Idea idea in whiteBoard)
         {
@@ -37,46 +37,59 @@ public class WhiteBoardManager : MonoBehaviour
 
             appealing += idea.appealing;
 
-            foreach(Theme t in idea.themes)
+            if (idea.themes != null)
             {
-                int themeIndex = usedThemes.IndexOf(t);
-
-                if(themeIndex < 0)
+                foreach (Theme t in idea.themes)
                 {
                     usedThemes.Add(t);
-                    themeOccurrence.Add(1);
-                }
-                else
-                {
-                    themeOccurrence[themeIndex]++;
                 }
             }
-            
+
+
+            //foreach(Theme t in idea.themes)
+            //{
+            //    int themeIndex = usedThemes.IndexOf(t);
+
+            //    if(themeIndex < 0)
+            //    {
+            //        usedThemes.Add(t);
+            //        themeOccurrence.Add(1);
+            //    }
+            //    else
+            //    {
+            //        themeOccurrence[themeIndex]++;
+            //    }
+            //}
+
         }
 
         bool themeCheck = true;
 
-        for(int i = 0; i < objective.themesWanted.Length; i++ )
-        {
-            if(usedThemes.IndexOf(objective.themesWanted[i]) < 0)
-            {
-                themeCheck = false;
-            }
-            else if( themeOccurrence[usedThemes.IndexOf(objective.themesWanted[i])] < objective.themeOccurrence[i])
-            {
-                themeCheck = false;
-            }
-        }
-
         for (int i = 0; i < objective.themesWanted.Length; i++)
         {
-            Debug.Log("wanted theme " + objective.themesWanted[i] + "  occurence " + objective.themeOccurrence[i]);
+            int count = 0;
+            foreach(Theme t2 in usedThemes)
+            {
+                if (t2 == objective.themesWanted[i])
+                    count++;
+            }
+
+            if (count < objective.themeOccurrence[i])
+                themeCheck = false;
         }
 
-        for (int i = 0; i <usedThemes.Count; i++)
-        {
-            Debug.Log("used theme " + usedThemes[i] + "  occurence " + themeOccurrence[i]);
-        }
+        //for(int i = 0; i < objective.themesWanted.Length; i++ )
+        //{
+        //    if(usedThemes.IndexOf(objective.themesWanted[i]) < 0)
+        //    {
+        //        themeCheck = false;
+        //    }
+        //    else if( themeOccurrence[usedThemes.IndexOf(objective.themesWanted[i])] < objective.themeOccurrence[i])
+        //    {
+        //        themeCheck = false;
+        //    }
+        //}
+
         
         return budget <= objective.budgetMax && pegi <= objective.audienceMax && appealing >= objective.appealing && themeCheck;
     }
@@ -98,20 +111,54 @@ public class WhiteBoardManager : MonoBehaviour
         return pegi;
     }
 
-    //public string getMostAppealing()
-    //{
-    //    string ideaTitle;
-    //    float appeal = 0;
+    public string getMostAppealing()
+    {
+        string ideaTitle = whiteBoard[0].title;
+        float appeal = 0;
 
-    //    foreach (Idea idea in whiteBoard)
-    //    {
-    //        if(appeal < idea.appealing)
-    //        {
-    //            appeal = idea.appealing;
-    //            ideaTitle = idea.title;
-    //        }
-    //    }
+        foreach (Idea idea in whiteBoard)
+        {
+            if (idea.appealing > appeal)
+            {
+                appeal = idea.appealing;
+                ideaTitle = idea.title;
+            }
+        }
 
-    //    return 
-    //}
+        return ideaTitle;
+    }
+
+    public string getSecondMostAppealing()
+    {
+        return null;
+    }
+
+    public string getLeastAppealing()
+    {
+        string ideaTitle = whiteBoard[0].title;
+        float appeal = 999999999999;
+
+        foreach (Idea idea in whiteBoard)
+        {
+            if (appeal < idea.appealing )
+            {
+                appeal = idea.appealing;
+                ideaTitle = idea.title;
+            }
+        }
+
+        return ideaTitle;
+    }
+
+    public float getBudget()
+    {
+        float total = 0;
+
+        foreach(Idea i in whiteBoard)
+        {
+            total += i.budgetChange;
+        }
+
+        return total;
+    }
 }
