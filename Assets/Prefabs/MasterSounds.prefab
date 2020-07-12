@@ -110,7 +110,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f0e0672b69ec1ec44b2743872c536a13, type: 3}
   - {fileID: 8300000, guid: 2e9dbdeb831e0884186f5a4c49e63645, type: 3}
   - {fileID: 8300000, guid: 6076dbe9569851341a11e3bcf4b0b37a, type: 3}
-  Character7Blabla: []
+  Character7Blabla:
+  - {fileID: 8300000, guid: 0a4a68cb4404b4e41a7184a59a70651d, type: 3}
+  - {fileID: 8300000, guid: d46b32d5c86917c41bc4b1a221729faa, type: 3}
+  - {fileID: 8300000, guid: e82b8ccb6130c8940b4ffa92bda67802, type: 3}
+  - {fileID: 8300000, guid: 1adfdadec7aa8fd41b6f44ae989d89be, type: 3}
+  - {fileID: 8300000, guid: 1c0af6b7413a91f46b1bf5977fc33c9d, type: 3}
+  - {fileID: 8300000, guid: e0e0efbdd0ae3904da106877a6eaf35c, type: 3}
+  - {fileID: 8300000, guid: 38a23ad3bb865774faa7c57ef9cbcc18, type: 3}
+  - {fileID: 8300000, guid: 8d8a8d2e6fa5d7347a393038a310bad5, type: 3}
   MusicOn: {fileID: 24500006, guid: 4ffe1e7f90358ed47a868993fb9acc76, type: 2}
   MusicOff: {fileID: -4127986662762245650, guid: 4ffe1e7f90358ed47a868993fb9acc76,
     type: 2}

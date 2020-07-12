@@ -51,9 +51,16 @@ MonoBehaviour:
   canvasObjectifsBackground: {fileID: 0}
   canvasWhiteboardBackground: {fileID: 0}
   canvasRoomBackground: {fileID: 0}
+  panelBlackscreenBackground: {fileID: 0}
   transitionTimeToObjectifCanvas: 1.5
   transitionTimeToGameCanvas: 0.5
+  transitionTimeToPitchCanvas: 1
   panelTitle: {fileID: 0}
+  panelPitchTitle_Pegi: {fileID: 0}
+  panelPitchMoments: {fileID: 0}
+  panelPitchBudgets: {fileID: 0}
+  panelPitchNotation: {fileID: 0}
+  buttonRestart: {fileID: 0}
   image1: {fileID: 0}
   image2: {fileID: 0}
   image3: {fileID: 0}
