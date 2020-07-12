@@ -47,6 +47,7 @@ MonoBehaviour:
   canvasObjectifs: {fileID: 0}
   canvasWhiteboard: {fileID: 0}
   canvasRoom: {fileID: 0}
+  canvasFinish: {fileID: 0}
   canvasObjectifsBackground: {fileID: 0}
   canvasWhiteboardBackground: {fileID: 0}
   canvasRoomBackground: {fileID: 0}
