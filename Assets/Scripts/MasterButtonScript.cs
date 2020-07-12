@@ -28,7 +28,19 @@ public class MasterButtonScript : MonoBehaviour
     public Image image2;
     public Image image3;
     public Button startButton;
+
     public BrainstormManager brainstormManager;
+    public WhiteBoardManager whiteBoardManager;
+
+    public TextMeshProUGUI gameTitle;
+    public Image gamePegi;
+    public Image gamePegiHappyUnhappy;
+    public TextMeshProUGUI memorableMoments;
+    public Image memorableMomentsHappyUnhappy;
+    public TextMeshProUGUI budget;
+    public Image budgetHappyUnhappy;
+    public Image notation;
+
 
     //Singleton
     public static MasterButtonScript instance;
@@ -107,7 +119,7 @@ public class MasterButtonScript : MonoBehaviour
         panelPitchBudgets.gameObject.SetActive(false);
 
         panelPitchNotation.gameObject.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(6f);
         panelPitchNotation.gameObject.SetActive(false);
 
         buttonRestart.gameObject.SetActive(true);
