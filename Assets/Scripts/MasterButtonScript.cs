@@ -68,24 +68,30 @@ public class MasterButtonScript : MonoBehaviour
 
     public void TransitionToObjectivesCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionObjectivesCanvas");
     }
 
     public void TransitionToGameCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionGameCanvas");
     }
 
     public void TransitionToPitchCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionPitchCanvas");
     }
 
     public void TransitionToMeetingEnd()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         canvasFinish.gameObject.SetActive(true);
         MasterSoundsScript.instance.PlayMeetingEnd();
         MasterSoundsScript.instance.PlayMeetingEndMusic();
+
+        whiteBoardManager.endInfos();
     }
 
     public IEnumerator TransitionPitchCanvas()
@@ -130,9 +136,9 @@ public class MasterButtonScript : MonoBehaviour
 
         }
 
-        memorableMoments.text = "So our game is going to feature a " + whiteBoardManager.getMostAppealing() + " and a ... " + whiteBoardManager.getLeastAppealing();
+        memorableMoments.text = "So our game is going to feature " + whiteBoardManager.getMostAppealing() + " and ... \n" + whiteBoardManager.getLeastAppealing();
 
-        budget.text = (whiteBoardManager.getBudget() * 312745).ToString() + " $";
+        budget.text = ("And we managed to reduce te budget to " + whiteBoardManager.getBudget() * 312745).ToString() + " $";
 
         if(whiteBoardManager.getResult())
         {
@@ -161,8 +167,7 @@ public class MasterButtonScript : MonoBehaviour
         panelPitchBudgets.gameObject.SetActive(false);
 
         panelPitchNotation.gameObject.SetActive(true);
-        yield return new WaitForSeconds(10f);
-        panelPitchNotation.gameObject.SetActive(false);
+        yield return new WaitForSeconds(3f);
 
         buttonRestart.gameObject.SetActive(true);
         yield return null;
@@ -196,6 +201,7 @@ public class MasterButtonScript : MonoBehaviour
         yield return new WaitForSeconds(0.75f);
         image3.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
+        startButton.gameObject.SetActive(true);
         startButton.interactable = true;
         yield return null;
     }

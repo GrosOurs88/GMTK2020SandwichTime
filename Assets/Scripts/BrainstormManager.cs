@@ -47,6 +47,9 @@ public class BrainstormManager : MonoBehaviour
         roomController.IdeaDiscarded += desactivateIdea;
         roomController.IdeaSelected += desactivateIdea;
 
+        roomController.IdeaSelected += selectedSound;
+        roomController.IdeaDiscarded += discardedSound;
+
         activeIdeas = new List<Idea>();
         timeStamps = new float[bubbleAmount];
 
@@ -73,7 +76,7 @@ public class BrainstormManager : MonoBehaviour
             {
                 if (elapsedTime >= timeStamps[currentCheckedTimeStamp])
                 {
-                    
+                    MasterSoundsScript.instance.PlayNewMessage();
 
                     activateIdea(getRandomIdea());
                     currentCheckedTimeStamp++;
@@ -87,16 +90,6 @@ public class BrainstormManager : MonoBehaviour
 
             masterButton.TransitionToMeetingEnd();
 
-
-
-            if (wbManager.getResult())
-            {
-                Debug.Log("Player won");
-            }
-            else
-            {
-                Debug.Log("Player lost");
-            }
         }
        
 
@@ -117,7 +110,6 @@ public class BrainstormManager : MonoBehaviour
         activeIdeas.Add(idea);
         roomController.DisplayIdeaBubble(idea);
 
-        Debug.Log("display bubble");
 
         if (activeIdeas.Count > MaxIdeaQueue)
         {
@@ -160,5 +152,20 @@ public class BrainstormManager : MonoBehaviour
     private Pitch getRandomPitch()
     {
         return pitchs[UnityEngine.Random.Range(0, pitchs.Length)];
+    }
+
+    public float getElapsedTime()
+    {
+        return elapsedTime;
+    }
+
+    private void selectedSound(Idea i)
+    {
+        MasterSoundsScript.instance.PlayValidateIdea();
+    }
+
+    private void discardedSound(Idea i)
+    {
+        MasterSoundsScript.instance.PlayDeleteIdea();
     }
 }

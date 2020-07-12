@@ -17,6 +17,8 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
     public RectTransform rectTransform;
 
+    public Character name;
+
     private bool isBeingMoved;
     private Vector3 moveMouseStartPosition;
     private Vector3 moveBubbleStartPosition;
@@ -27,6 +29,48 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         roomController = room_controller;
         myIdea = idea;
         text.text = idea.text;
+
+        switch(name)
+        {
+            case Character.Chantal:
+            {
+                    MasterSoundsScript.instance.PlayCharacter1Blabla();
+            }
+            break;
+
+            case Character.Surfer:
+                {
+                    MasterSoundsScript.instance.PlayCharacter2Blabla();
+                }
+                break;
+            case Character.Token:
+                {
+                    MasterSoundsScript.instance.PlayCharacter3Blabla();
+                }
+                break;
+            case Character.Fabrice:
+                {
+                    MasterSoundsScript.instance.PlayCharacter4Blabla();
+                }
+                break;
+            case Character.Boss:
+                {
+                    MasterSoundsScript.instance.PlayCharacter5Blabla();
+                }
+                break;
+            case Character.Woman:
+                {
+                    MasterSoundsScript.instance.PlayCharacter6Blabla();
+                }
+                break;
+            case Character.Gay:
+                {
+                    MasterSoundsScript.instance.PlayCharacter7Blabla();
+                }
+                break;
+
+
+        }
     }
 
     public void Kill()
