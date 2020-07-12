@@ -49,3 +49,4 @@ MonoBehaviour:
   brainstormStarted: 0
   roomController: {fileID: 0}
   selectedPitch: {fileID: 0}
+  wbManager: {fileID: 0}

@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0a2f72e747b40459c4e8f13dbc9e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomController: {fileID: 0}
   iconPrefab: {fileID: 8398356758254185821, guid: 82cb460bcdfd26e4dbd2a8847f2c9ccb,
     type: 3}
   iconSpawnDelay: 0.2
