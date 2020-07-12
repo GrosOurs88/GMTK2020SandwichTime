@@ -68,21 +68,25 @@ public class MasterButtonScript : MonoBehaviour
 
     public void TransitionToObjectivesCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionObjectivesCanvas");
     }
 
     public void TransitionToGameCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionGameCanvas");
     }
 
     public void TransitionToPitchCanvas()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         StartCoroutine("TransitionPitchCanvas");
     }
 
     public void TransitionToMeetingEnd()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         canvasFinish.gameObject.SetActive(true);
         MasterSoundsScript.instance.PlayMeetingEnd();
         MasterSoundsScript.instance.PlayMeetingEndMusic();

@@ -7,6 +7,7 @@ public class RestartGameScript : MonoBehaviour
 {
     public void Restart()
     {
+        MasterSoundsScript.instance.PlayButtonClic();
         Scene scene = SceneManager.GetActiveScene(); 
         SceneManager.LoadScene(scene.name);
     }
