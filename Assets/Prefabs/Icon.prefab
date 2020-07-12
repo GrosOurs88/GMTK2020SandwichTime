@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToLive: 1
-  speed: 500
+  speed: 200
   image: {fileID: 4496314741291946103}
   canvasGroup: {fileID: 6725215411657902122}
 --- !u!225 &6725215411657902122
