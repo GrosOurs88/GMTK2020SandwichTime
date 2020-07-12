@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
   m_Name: KidFantasy
   m_EditorClassIdentifier: 
-  text1: 
-  text2: 
-  text3: 
-  budgetMax: 0
-  audienceMax: 0
-  appealing: 0
-  themesWanted: 
-  themeOccurrence: 
+  text1: Okay so the movie must have some magic stuff ...
+  text2: It's a kid movie so obviously the age limit is 12
+  text3: Oh and did I mention we're short on budget ?
+  budgetMax: 20
+  audienceMax: 13
+  appealing: 99
+  themesWanted: 0600000002000000
+  themeOccurrence: 0f0000000f000000

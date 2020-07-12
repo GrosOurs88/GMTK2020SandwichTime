@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
-  m_Name: Pitch
+  m_Name: HistoricalRomance
   m_EditorClassIdentifier: 
-  text1: 
-  text2: 
-  text3: 
-  budgetMax: 0
-  audienceMax: 0
-  appealing: 0
-  themesWanted: 
-  themeOccurrence: 
+  text1: Our next movie is going to be a romance, and we'll try get inspired from
+    historical events
+  text2: We have a million and a half, so make it classy
+  text3: And don't be bothered to put some hot scenes in there
+  budgetMax: 25
+  audienceMax: 99
+  appealing: 15
+  themesWanted: 0800000004000000
+  themeOccurrence: 0a00000006000000

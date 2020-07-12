@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
-  m_Name: We need
+  m_Name: lowBudget
   m_EditorClassIdentifier: 
-  text1: 
-  text2: 
+  text1: We need to make a movie, whatever it's about we need to be below a million
+    $
+  text2: But make it look the less crappy we can
   text3: 
-  budgetMax: 0
-  audienceMax: 0
-  appealing: 0
+  budgetMax: 17
+  audienceMax: 99
+  appealing: 10
   themesWanted: 
   themeOccurrence: 
