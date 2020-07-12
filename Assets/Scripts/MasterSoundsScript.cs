@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MasterSoundsScript : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class MasterSoundsScript : MonoBehaviour
     //AudioClips
     public AudioClip menuMusic;
     public AudioClip mainMusic;
+    public AudioClip meetingEndMusic;
 
     public AudioClip buttonClic;
     public AudioClip newMessage;
@@ -29,6 +31,10 @@ public class MasterSoundsScript : MonoBehaviour
     public List<AudioClip> Character4Blabla = new List<AudioClip>();
     public List<AudioClip> Character5Blabla = new List<AudioClip>();
     private int randomIndex;
+
+    //Snapshots
+    public AudioMixerSnapshot MusicOn;
+    public AudioMixerSnapshot MusicOff;
 
     //Singleton
     public static MasterSoundsScript instance;
@@ -51,6 +57,21 @@ public class MasterSoundsScript : MonoBehaviour
     {
         musicSource.clip = mainMusic;
         musicSource.Play();
+    }
+
+    public void PlayMeetingEndMusic()
+    {
+        StartCoroutine("PlayMeetingEndMusicTransition");
+    }
+
+    public IEnumerator PlayMeetingEndMusicTransition()
+    {
+        MusicOff.TransitionTo(1f);
+        yield return new WaitForSeconds(1f);
+        musicSource.clip = meetingEndMusic;
+        musicSource.Play();
+        MusicOn.TransitionTo(1.5f);
+        yield return null;
     }
 
     public void PlayButtonClic()

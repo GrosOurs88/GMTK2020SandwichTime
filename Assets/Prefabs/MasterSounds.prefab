@@ -51,6 +51,7 @@ MonoBehaviour:
   timerSfxSource: {fileID: 2525179148383177466}
   menuMusic: {fileID: 8300000, guid: f10f5d06830392d428ab758227b59558, type: 3}
   mainMusic: {fileID: 8300000, guid: 3b51b53f3d6a3ce4eb3ca149db0ff4da, type: 3}
+  meetingEndMusic: {fileID: 8300000, guid: abcee2801e20aa8419292bae58dc1f46, type: 3}
   buttonClic: {fileID: 8300000, guid: 2557db00a91a18845b8baa1e44910ca6, type: 3}
   newMessage: {fileID: 8300000, guid: d05b907159ea2be40b0c716e8867a1f5, type: 3}
   validateIdea: {fileID: 8300000, guid: c91763373264512469dd3240fae62f8a, type: 3}
@@ -64,6 +65,9 @@ MonoBehaviour:
   Character3Blabla: []
   Character4Blabla: []
   Character5Blabla: []
+  MusicOn: {fileID: 24500006, guid: 4ffe1e7f90358ed47a868993fb9acc76, type: 2}
+  MusicOff: {fileID: -4127986662762245650, guid: 4ffe1e7f90358ed47a868993fb9acc76,
+    type: 2}
 --- !u!82 &7526016667418108867
 AudioSource:
   m_ObjectHideFlags: 0
