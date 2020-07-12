@@ -7,6 +7,8 @@ public class WhiteBoardManager : MonoBehaviour
     private List<Idea> whiteBoard;
 
     public RoomController roomController;
+
+    public Pitch objective;
     public void Start()
     {
         whiteBoard = new List<Idea>();
@@ -16,5 +18,6 @@ public class WhiteBoardManager : MonoBehaviour
     public void addIdea(Idea idea)
     {
         whiteBoard.Add(idea);
+        ;
     }
 }
