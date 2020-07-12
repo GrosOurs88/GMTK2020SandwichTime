@@ -58,7 +58,11 @@ public class WhiteBoardManager : MonoBehaviour
 
         for(int i = 0; i < objective.themesWanted.Length; i++ )
         {
-            if( themeOccurrence[usedThemes.IndexOf(objective.themesWanted[i])] < objective.themeOccurrence[i])
+            if(usedThemes.IndexOf(objective.themesWanted[i]) < 0)
+            {
+                themeCheck = false;
+            }
+            else if( themeOccurrence[usedThemes.IndexOf(objective.themesWanted[i])] < objective.themeOccurrence[i])
             {
                 themeCheck = false;
             }
