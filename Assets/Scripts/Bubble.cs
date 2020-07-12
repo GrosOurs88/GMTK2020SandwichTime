@@ -12,6 +12,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
     public TMP_Text text;
     public CanvasGroup canvasGroup;
+    public RectTransform bubbleGroup;
     public float fadeOutTime;
 
     public RectTransform rectTransform;
@@ -39,7 +40,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / fadeOutTime)
         {
             canvasGroup.alpha = Mathf.Lerp(1f, 0f, t);
-            rectTransform.position += direction * Time.deltaTime * 6000f;
+            bubbleGroup.position += direction * Time.deltaTime * 6000f;
             yield return null;
         }
     }
@@ -59,7 +60,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
             Debug.Log("Left down");
             isBeingMoved = true;
             moveMouseStartPosition = Input.mousePosition;
-            moveBubbleStartPosition = rectTransform.position;
+            moveBubbleStartPosition = bubbleGroup.position;
             moveBubbleOffsetWithMouse = moveBubbleStartPosition - moveMouseStartPosition;
         }
         else if (eventData.button == PointerEventData.InputButton.Right)
@@ -97,7 +98,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
             }
             else
             {
-                rectTransform.position = Input.mousePosition + moveBubbleOffsetWithMouse;
+                bubbleGroup.position = Input.mousePosition + moveBubbleOffsetWithMouse;
             }
         }
     }
@@ -108,7 +109,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 
         if (mouse_movement.magnitude < rectTransform.rect.width * 0.3f)
         {
-            rectTransform.position = moveBubbleStartPosition;
+            bubbleGroup.position = moveBubbleStartPosition;
             return;
         }
 
