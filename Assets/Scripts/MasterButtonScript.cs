@@ -95,6 +95,8 @@ public class MasterButtonScript : MonoBehaviour
 
     public IEnumerator TransitionGameCanvas()
     {
+        brainstormManager.startBrainstorm();
+
         var tempColor = canvasWhiteboardBackground.color;
         var tempColor2 = canvasRoomBackground.color;
         tempColor.a = 0f;
