@@ -132,7 +132,7 @@ public class MasterButtonScript : MonoBehaviour
 
         memorableMoments.text = "So our game is going to feature a " + whiteBoardManager.getMostAppealing() + " and a ... " + whiteBoardManager.getLeastAppealing();
 
-        budget.text = whiteBoardManager.getBudget().ToString();
+        budget.text = (whiteBoardManager.getBudget() * 312745).ToString() + " $";
 
         if(whiteBoardManager.getResult())
         {
@@ -149,19 +149,19 @@ public class MasterButtonScript : MonoBehaviour
         canvasRoom.gameObject.SetActive(false);
         yield return new WaitForSeconds(1f);
         panelPitchTitle_Pegi.gameObject.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(7f);
         panelPitchTitle_Pegi.gameObject.SetActive(false);
 
         panelPitchMoments.gameObject.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(7f);
         panelPitchMoments.gameObject.SetActive(false);
 
         panelPitchBudgets.gameObject.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(7f);
         panelPitchBudgets.gameObject.SetActive(false);
 
         panelPitchNotation.gameObject.SetActive(true);
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(10f);
         panelPitchNotation.gameObject.SetActive(false);
 
         buttonRestart.gameObject.SetActive(true);
