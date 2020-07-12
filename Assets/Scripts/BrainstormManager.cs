@@ -57,7 +57,7 @@ public class BrainstormManager : MonoBehaviour
 
         
 
-        startBrainstorm();
+        //startBrainstorm();
 
     }
 
@@ -87,7 +87,7 @@ public class BrainstormManager : MonoBehaviour
 
     }
 
-    void startBrainstorm()
+    public void startBrainstorm()
     {
         brainstormStarted = true;
         elapsedTime = 0;

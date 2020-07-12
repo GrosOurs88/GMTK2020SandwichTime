@@ -15,6 +15,8 @@ MonoBehaviour:
   text1: kbhobhobo
   text2: bljolbbh
   text3: kbhkkb
-  BudgetMin: 45664
   budgetMax: 4564
-  AudienceMax: 1
+  audienceMax: 0
+  appealing: 0
+  themesWanted: 0000000002000000
+  themeOccurrence: 0100000003000000
