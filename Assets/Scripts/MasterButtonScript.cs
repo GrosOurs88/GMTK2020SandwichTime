@@ -136,9 +136,9 @@ public class MasterButtonScript : MonoBehaviour
 
         }
 
-        memorableMoments.text = "So our game is going to feature a " + whiteBoardManager.getMostAppealing() + " and a ... " + whiteBoardManager.getLeastAppealing();
+        memorableMoments.text = "So our game is going to feature " + whiteBoardManager.getMostAppealing() + " and ... \n" + whiteBoardManager.getLeastAppealing();
 
-        budget.text = (whiteBoardManager.getBudget() * 312745).ToString() + " $";
+        budget.text = ("And we managed to reduce te budget to " + whiteBoardManager.getBudget() * 312745).ToString() + " $";
 
         if(whiteBoardManager.getResult())
         {
