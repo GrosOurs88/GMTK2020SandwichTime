@@ -32,7 +32,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     public void Kill()
     {
         Destroy(gameObject, fadeOutTime + 1f);
-        StartCoroutine("FadeOutAndDie");
+        StartCoroutine("FadeOutAndDie", Vector3.zero);
     }
 
     IEnumerator FadeOutAndDie(Vector3 direction)
@@ -106,7 +106,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     {
         Vector3 mouse_movement = Input.mousePosition - moveMouseStartPosition;
 
-        if (mouse_movement.magnitude < rectTransform.rect.width * 0.15f)
+        if (mouse_movement.magnitude < rectTransform.rect.width * 0.08f)
         {
             bubbleGroup.position = moveBubbleStartPosition;
             return;
