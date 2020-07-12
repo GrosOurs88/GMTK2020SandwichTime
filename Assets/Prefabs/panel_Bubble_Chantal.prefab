@@ -7,25 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.011764677
-      objectReference: {fileID: 0}
-    - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.93333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.08915941
-      objectReference: {fileID: 0}
     - target: {fileID: 3578502534610842871, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
       propertyPath: m_Name
-      value: panel_Bubble_David
+      value: panel_Bubble_Chantal
       objectReference: {fileID: 0}
     - target: {fileID: 5878686212434037158, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
