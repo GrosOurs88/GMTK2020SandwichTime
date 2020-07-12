@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
   m_Name: Pitch
   m_EditorClassIdentifier: 
-  text1: 
-  text2: 
-  text3: 
-  budgetMax: 0
+  text1: kbhobhobo
+  text2: bljolbbh
+  text3: kbhkkb
+  budgetMax: 3000000
   audienceMax: 0
   appealing: 0
-  themesWanted: 
-  themeOccurrence: 
+  themesWanted: 07000000
+  themeOccurrence: 0100000003000000
