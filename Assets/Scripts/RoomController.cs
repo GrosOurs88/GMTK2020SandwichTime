@@ -14,6 +14,7 @@ public class RoomController : MonoBehaviour
     public event BubbleEventHandler IdeaDiscarded;
 
     private List<Bubble> displayedBubbles;
+    private bool lastWasSpawnRight;
 
     public void Start()
     {
@@ -33,6 +34,18 @@ public class RoomController : MonoBehaviour
             );
 
         bubble.rectTransform.localPosition = new Vector3(bubble.rectTransform.localPosition.x, randomized_height, bubble.rectTransform.localPosition.z);
+
+        if (lastWasSpawnRight)
+        {
+            lastWasSpawnRight = false;
+
+            bubble.transform.localScale = new Vector3(-1f, 1f, 1f);
+            bubble.text.transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else
+        {
+            lastWasSpawnRight = true;
+        }
 
         displayedBubbles.Add(bubble);
     }
