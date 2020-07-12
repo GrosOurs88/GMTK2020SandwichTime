@@ -5,11 +5,9 @@
     <Idea>
       <text>this is the first test dialog</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
       <pegi>0</pegi>
       <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
       <Themes>
         <Theme>pirate</Theme>
         <Theme>scifi</Theme>
@@ -25,11 +23,9 @@
 	<Idea>
       <text>this is the second test dialog</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
       <pegi>0</pegi>
       <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
       <Themes>
         <Theme>fantasy</Theme>
         <Theme>space</Theme>
@@ -45,11 +41,9 @@
 	<Idea>
       <text>this is the third test dialog</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
       <pegi>0</pegi>
       <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
       <Themes>
         <Theme>scifi</Theme>
         <Theme>western</Theme>
@@ -65,11 +59,9 @@
 	<Idea>
       <text>this is the fourth test dialog</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
       <pegi>0</pegi>
       <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
       <Themes>
         <Theme>western</Theme>
         <Theme>fantasy</Theme>
@@ -79,6 +71,128 @@
         <Character>1</Character>
         <Character>2</Character>
         <Character>3</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>Why not cast Brat Pid?</text>
+      <fontSize>42</fontSize>
+      <budgetChange>5</budgetChange>
+      <pegi>3</pegi>
+      <appealing>5</appealing>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Gay</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>Now everyone use motion capture!</text>
+      <fontSize>42</fontSize>
+      <budgetChange>3</budgetChange>
+      <pegi>3</pegi>
+      <appealing>2</appealing>
+      <Characters>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>I think we should shoot some scenes in location. In Hawaii</text>
+      <fontSize>42</fontSize>
+      <budgetChange>4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>4</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>UglyCity is giving substential subventions if we go shout there</text>
+      <fontSize>42</fontSize>
+      <budgetChange>-4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>-4</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>I've got some good contacts to have product placements</text>
+      <fontSize>42</fontSize>
+      <budgetChange>-3</budgetChange>
+      <pegi>3</pegi>
+      <appealing>-2</appealing>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>And then there is a telekinetic tire that goes on killing people!</text>
+      <fontSize>42</fontSize>
+      <budgetChange></budgetChange>
+      <pegi>16</pegi>
+      <appealing>3</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>And why not a double murder with a chainsaw?</text>
+      <fontSize>42</fontSize>
+      <budgetChange></budgetChange>
+      <pegi>18</pegi>
+      <appealing>4</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Chantal</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+      <text>My kids would love a cameo from their favourite cartoon character</text>
+      <fontSize>42</fontSize>
+      <budgetChange>4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>4</appealing>
+      <Themes>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Chantal</Character>
+        <Character>Boss</Character>
+        <Character>Woman</Character>
       </Characters>
     </Idea>
 	
