@@ -8,12 +8,9 @@ public class TimerScript : MonoBehaviour
     public float timer;
     public TextMeshProUGUI timerUI;
     private bool meetingAlmostEnded = false;
+    private bool meetingEnded = false;
 
- 
-    void Start()
-    {
-        
-    }
+
 
 
     void Update()
@@ -23,8 +20,10 @@ public class TimerScript : MonoBehaviour
             timer -= Time.deltaTime;
         }            
 
-        if(timer <= 0f)
+        if(timer <= 0f && meetingEnded)
         {
+            meetingEnded = true;
+
             MasterSoundsScript.instance.PlayMeetingEnd();
             timer = 0f;
         }

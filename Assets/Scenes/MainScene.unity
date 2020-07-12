@@ -152,46 +152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 332939060}
     m_Modifications:
-    - target: {fileID: 8186416713097493716, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f5c0db9c74811a243abd85bf52645375,
-        type: 3}
-    - target: {fileID: 8186416713097493716, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713097493716, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713097493716, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713097493716, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713097493718, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8186416713798671442, guid: f84a6c64a3092c743a20c71b08f43f42,
         type: 3}
       propertyPath: m_Name
       value: Canvas_Objectifs
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713798671442, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8186416713798671446, guid: f84a6c64a3092c743a20c71b08f43f42,
         type: 3}
@@ -298,78 +262,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8186416713954894738, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f5c0db9c74811a243abd85bf52645375,
-        type: 3}
-    - target: {fileID: 8186416713954894738, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713954894738, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713954894738, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713954894738, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416713954894748, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8186416714303000368, guid: f84a6c64a3092c743a20c71b08f43f42,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 295729057}
-    - target: {fileID: 8186416714303000368, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TransitionToGameCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416714644465715, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f5c0db9c74811a243abd85bf52645375,
-        type: 3}
-    - target: {fileID: 8186416714644465715, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416714644465715, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416714644465715, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416714644465715, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186416714644465725, guid: f84a6c64a3092c743a20c71b08f43f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f84a6c64a3092c743a20c71b08f43f42, type: 3}
 --- !u!224 &181537315 stripped
@@ -481,16 +378,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MasterButtons
       objectReference: {fileID: 0}
-    - target: {fileID: 969821341237687234, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.size
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
       propertyPath: canvasMainMenu
@@ -503,14 +390,69 @@ PrefabInstance:
       objectReference: {fileID: 68253007}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
+      propertyPath: canvasWhiteboard
+      value: 
+      objectReference: {fileID: 289207498059448332}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: canvasRoom
+      value: 
+      objectReference: {fileID: 3072075773985544077}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: canvasFinish
+      value: 
+      objectReference: {fileID: 1677244436}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
       propertyPath: canvasObjectifsBackground
       value: 
       objectReference: {fileID: 1358951950}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
+      propertyPath: canvasWhiteboardBackground
+      value: 
+      objectReference: {fileID: 289207498059448331}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: canvasRoomBackground
+      value: 
+      objectReference: {fileID: 3072075773985544076}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: panelBlackscreenBackground
+      value: 
+      objectReference: {fileID: 1360450797}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
       propertyPath: panelTitle
       value: 
       objectReference: {fileID: 393408004}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: panelPitchTitle_Pegi
+      value: 
+      objectReference: {fileID: 1384586908}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: panelPitchMoments
+      value: 
+      objectReference: {fileID: 59195460}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: panelPitchBudgets
+      value: 
+      objectReference: {fileID: 1890404132}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: panelPitchNotation
+      value: 
+      objectReference: {fileID: 1250589344}
+    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
+        type: 3}
+      propertyPath: buttonRestart
+      value: 
+      objectReference: {fileID: 1488947158}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
       propertyPath: image1
@@ -538,29 +480,9 @@ PrefabInstance:
       objectReference: {fileID: 9081664689839041295}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
-      propertyPath: canvasWhiteboard
+      propertyPath: whiteBoardManager
       value: 
-      objectReference: {fileID: 289207498059448332}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: canvasRoom
-      value: 
-      objectReference: {fileID: 3072075773985544077}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: canvasFinish
-      value: 
-      objectReference: {fileID: 1677244436}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: canvasWhiteboardBackground
-      value: 
-      objectReference: {fileID: 289207498059448331}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: canvasRoomBackground
-      value: 
-      objectReference: {fileID: 3072075773985544076}
+      objectReference: {fileID: 1081997537}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
       propertyPath: gameTitle
@@ -573,24 +495,9 @@ PrefabInstance:
       objectReference: {fileID: 1677244442}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
-      propertyPath: panelPitchTitle_Pegi
-      value: 
-      objectReference: {fileID: 1384586908}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: gamePegiHappyUnhappy
-      value: 
-      objectReference: {fileID: 1677244441}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
       propertyPath: memorableMoments
       value: 
       objectReference: {fileID: 711891185}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: memorableMomentsHappyUnhappy
-      value: 
-      objectReference: {fileID: 1677244440}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
       propertyPath: budget
@@ -598,92 +505,9 @@ PrefabInstance:
       objectReference: {fileID: 1131468510}
     - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
         type: 3}
-      propertyPath: budgetHappyUnhappy
-      value: 
-      objectReference: {fileID: 1677244439}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
       propertyPath: notation
       value: 
       objectReference: {fileID: 1677244437}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: panelBlackscreenBackground
-      value: 
-      objectReference: {fileID: 1360450797}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: panelPitchMoments
-      value: 
-      objectReference: {fileID: 59195460}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: panelPitchBudgets
-      value: 
-      objectReference: {fileID: 1890404132}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: panelPitchNotation
-      value: 
-      objectReference: {fileID: 1250589344}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: buttonRestart
-      value: 
-      objectReference: {fileID: 1488947158}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: f3e949345a468cd49843cbf8aa3f07a5,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 0832f87fd4c1895488bfd017bf9850c7,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 03013953f2a09ff488be6fbcce824290,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 9c5e07a01e7b42f4a8db460d325b1e6d,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: de5cd8a2296b278479fe7c9083be9ef9,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: pegi.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300000, guid: bf7abc30dddaaed40b11a390ced15593,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: whiteBoardManager
-      value: 
-      objectReference: {fileID: 1081997537}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: happyFace
-      value: 
-      objectReference: {fileID: 21300000, guid: ce36d021366d10542bde9adae1f6b9c0,
-        type: 3}
-    - target: {fileID: 969821341237687235, guid: 749aafa21e32d1545bfabf1157638ac8,
-        type: 3}
-      propertyPath: unHaappyFace
-      value: 
-      objectReference: {fileID: 21300000, guid: 9004cca507694664ebef5f186cf6a7b2,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 749aafa21e32d1545bfabf1157638ac8, type: 3}
 --- !u!114 &295729057 stripped
@@ -709,11 +533,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_MainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 7895719995230326736, guid: 881745b9ef15ec34d9cc424a213fb4c0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7895719995230326740, guid: 881745b9ef15ec34d9cc424a213fb4c0,
         type: 3}
@@ -1277,98 +1096,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 332939060}
     m_Modifications:
-    - target: {fileID: 40382034, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40382034, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40382034, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40382034, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 40382034, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 716948353, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 716948353, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 716948353, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 716948353, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826450939, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826450939, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826450939, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826450939, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 4139387473055444617, guid: d9ed33950880ced40b03ae70b3d6fabd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 295729057}
     - target: {fileID: 4139387474397517547, guid: d9ed33950880ced40b03ae70b3d6fabd,
         type: 3}
       propertyPath: m_Name
@@ -1515,42 +1247,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1677244439 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5876657210235280073, guid: d9ed33950880ced40b03ae70b3d6fabd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1677244434}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1677244440 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2084639140387312374, guid: d9ed33950880ced40b03ae70b3d6fabd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1677244434}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1677244441 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2672074150829225338, guid: d9ed33950880ced40b03ae70b3d6fabd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1677244434}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1677244442 stripped
@@ -1754,16 +1450,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: canvas_Whiteboard
       objectReference: {fileID: 0}
-    - target: {fileID: 3087929743327059442, guid: aae81079c28236240b251ffe3b29dffd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8489741069738828298, guid: aae81079c28236240b251ffe3b29dffd,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -49.30005
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aae81079c28236240b251ffe3b29dffd, type: 3}
 --- !u!224 &289207498059448330 stripped
@@ -1801,11 +1487,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: canvas_Room
-      objectReference: {fileID: 0}
-    - target: {fileID: 1408782258440925005, guid: 86a5f790ad5a9584e85d37406b7d7b65,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5944282723982786821, guid: 86a5f790ad5a9584e85d37406b7d7b65,
         type: 3}
