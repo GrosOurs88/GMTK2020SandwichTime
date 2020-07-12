@@ -45,3 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasMainMenu: {fileID: 0}
   canvasObjectifs: {fileID: 0}
+  canvasObjectifsBackground: {fileID: 0}
+  transitionTime: 2
+  panelTitle: {fileID: 0}
+  image1: {fileID: 0}
+  image2: {fileID: 0}
+  image3: {fileID: 0}
+  startButton: {fileID: 0}
