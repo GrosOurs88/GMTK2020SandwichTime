@@ -534,6 +534,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7895719995230326736, guid: 881745b9ef15ec34d9cc424a213fb4c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7895719995230326740, guid: 881745b9ef15ec34d9cc424a213fb4c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1105,6 +1110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139387474397517547, guid: d9ed33950880ced40b03ae70b3d6fabd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4139387474397517559, guid: d9ed33950880ced40b03ae70b3d6fabd,
         type: 3}
