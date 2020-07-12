@@ -27,7 +27,7 @@
       </Characters>
     </Idea>	
 	<Idea>
-	  <title>Hawaii</title>
+	  <title>scenes shot in Hawaii</title>
       <text>I think we should shoot some scenes in location. In Hawaii.</text>
       <budgetChange>4</budgetChange>
       <pegi>3</pegi>
@@ -116,7 +116,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Building explosion</title>
+	  <title>building explosion</title>
       <text>We can have a whole building exploding!</text>
       <budgetChange>5</budgetChange>
       <pegi>0</pegi>
@@ -146,7 +146,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Battle with 5000 extras</title>
+	  <title>battle with 5000 extras</title>
       <text>An epic battle with 5000 extras.</text>
       <budgetChange>5</budgetChange>
       <pegi>12</pegi>
@@ -165,7 +165,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Huuuuggee bomb explosion</title>
+	  <title>huuuuggee bomb explosion</title>
       <text>And then a huuuuuugggggeeeee bomb explodes!!</text>
       <budgetChange>2</budgetChange>
       <pegi>12</pegi>
@@ -181,7 +181,7 @@
       </Characters>
     </Idea>	
 	<Idea>
-	  <title>In the end, it was all a dream</title>
+	  <title>in the end, it was all a dream</title>
       <text>In the end, we reveal that it was all a dream...</text>
       <budgetChange>0</budgetChange>
       <pegi>0</pegi>
@@ -200,7 +200,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Hero's dark secret past</title>
+	  <title>hero's dark secret past</title>
       <text>The hero needs a dark and secret past.</text>
       <budgetChange>0</budgetChange>
       <pegi>7</pegi>
@@ -221,7 +221,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Use of stage animals</title>
+	  <title>use of stage animals</title>
       <text>I want live stage animals. Not fake ones.</text>
       <budgetChange>3</budgetChange>
       <pegi>0</pegi>
@@ -243,7 +243,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Orchestral music</title>
+	  <title>orchestral music</title>
       <text>It's so much better when you have live recorded orchestral music.</text>
       <budgetChange>2</budgetChange>
       <pegi>0</pegi>
@@ -273,7 +273,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Time travel</title>
+	  <title>time travel</title>
       <text>What about time travel? That creates very interesting paradoxes.</text>
       <budgetChange>1</budgetChange>
       <pegi>0</pegi>
@@ -290,7 +290,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>A sex scene</title>
+	  <title>a sex scene</title>
       <text>A steamy sex scene! Sex appeals to everyone.</text>
       <budgetChange>0</budgetChange>
       <pegi>18</pegi>
@@ -306,7 +306,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Historical costumes</title>
+	  <title>historical costumes</title>
       <text>Why not use original historical costumes?</text>
       <budgetChange>3</budgetChange>
       <pegi>0</pegi>
@@ -324,7 +324,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Romance with lizard girl</title>
+	  <title>romance with lizard girl</title>
       <text>Maybe... the main character could date a lizard girl.</text>
       <budgetChange>0</budgetChange>
       <pegi>12</pegi>
@@ -343,7 +343,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Actors are all plants</title>
+	  <title>actors are all plants</title>
       <text>All. Actors. Are. Plants. You all get the symbolism of that, right?</text>
       <budgetChange>-5</budgetChange>
       <pegi>16</pegi>
@@ -360,7 +360,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title>Everything happens at night</title>
+	  <title>everything happening at night</title>
       <text>Everything happens at night. Or in very dark rooms. Because the hero is sad.</text>
       <budgetChange>-1</budgetChange>
       <pegi>0</pegi>
@@ -372,7 +372,7 @@
       </Characters>
     </Idea>
 	<Idea>
-	  <title></title>
+	  <title>sound effects by mouth</title>
       <text>All sound FX are done by mouth. I can help by doing mouth trumpet.</text>
       <budgetChange>-4</budgetChange>
       <pegi>0</pegi>
@@ -382,143 +382,574 @@
         <Character>Token</Character>
       </Characters>
     </Idea>
+	<Idea>
+	  <title>a found footage style</title>
+      <text>It can be another found footage. We would save on cameras.</text>
+      <budgetChange>-4</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>fantasy</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a military zone</title>
+      <text>The hero has to find its way into a well guarded military zone.</text>
+      <budgetChange>1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+      </Themes>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a lot of cats</title>
+      <text>Cats. I love cats. Let's put a lot of cats.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>10</pegi>
+      <appealing>5</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+        <Theme>nature</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>the escape of a maya temple</title>
+      <text>That kind of scene where the hero has to get out a maya temple or something.</text>
+      <budgetChange>2</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>fantasy</Theme>
+        <Theme>historical</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Fabrice</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a trip at DisneyLand</title>
+      <text>At some point they spend some time at DisneyLand. I mean, everyone loves DisneyLand.</text>
+      <budgetChange>3</budgetChange>
+      <pegi>3</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a guy with a wooden leg</title>
+      <text>What about a guy with a wooden leg. Maybe he has lost his leg in a fight.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>western</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Fabrice</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>mermaids</title>
+      <text>Mermaids. Half woman, half fish.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>fantasy</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Surfer</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text>Also, the hero has lost his memory. And he tries to remember.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-1</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>romance</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a battle at sea</title>
+      <text>Battleships in combat in high sea. Boum boum!</text>
+      <budgetChange>4</budgetChange>
+      <pegi>0</pegi>
+      <appealing>3</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Fabrice</Character>
+        <Character>Surfer</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>horse riding</title>
+      <text>A long horse riding trip.</text>
+      <budgetChange>1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>fantasy</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+        <Theme>historical</Theme>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Token</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>gun fights</title>
+      <text>Classic gun fights. Guys shooting at each other, but really fast.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+        <Theme>postapo</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Fabrice</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>drunk guys in a saloon</title>
+      <text>In a saloon... some guys are drinking... and, well, they get drunk.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>16</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+      </Themes>
+      <Characters>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a rocket launch</title>
+      <text>A rocket launching to space. Like the ones we see on TV.</text>
+      <budgetChange>2</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a love triangle</title>
+      <text>Your usual love triangle. Who is going to end up with whom?</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+        <Theme>historical</Theme>
+        <Theme>western</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Chantal</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a love hexagon</title>
+      <text>A character that likes the secondary lead, who loves his childhood friend, who has a crush on the first's sister... a loxe hexagon.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-1</appealing>
+      <Themes>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Chantal</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a lot of songs</title>
+      <text>Let's have a song at every key moment.</text>
+      <budgetChange>2</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Woman</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a post credit scene</title>
+      <text>I want a post credit scene, where you reveal the next trilogy of movies.</text>
+      <budgetChange>1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a mysterious phone call</title>
+      <text>A mystery phone call from an unknown number. It's like " who is it gonna be?"</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>time dilation</title>
+      <text>I don't quite understand time dilation, but that's smart. You're here, time goes fast. You're there, it's slower.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>fantasy</Theme>
+      </Themes>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>teleportation to a new world</title>
+      <text>Teleportion to different worlds. And each world is completely different.</text>
+      <budgetChange>5</budgetChange>
+      <pegi>0</pegi>
+      <appealing>3</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>fantasy</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Surfer</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Blackbeard</title>
+      <text>Blackbeard the pirate. Aaarg!</text>
+      <budgetChange>0</budgetChange>
+      <pegi>10</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text>Half of the movie happens in a barren desert, so you can feel the emptiness of life.</text>
+      <budgetChange>-3</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-2</appealing>
+      <Themes>
+        <Theme>western</Theme>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a famous 19th century actor in CGI</title>
+      <text>We can have a famous actor from the 19th century if we re-create him in CGI.</text>
+      <budgetChange>2</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Boss</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a character getting a sheriff medal</title>
+      <text>A cool scene where a character is proud to receive his sheriff medal.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+        <Theme>western</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Fabrice</Character>
+        <Character>Chantal</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a death character signing</title>
+      <text>One character is deaf and uses sign language</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-1</appealing>
+      <Themes>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a deserted island</title>
+      <text>And the whole cast arrives on a deserted island.</text>
+      <budgetChange>2</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character>Fabrice</Character>
+        <Character>Surfer</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>dinosaurs</title>
+      <text></text>
+      <budgetChange>3</budgetChange>
+      <pegi>0</pegi>
+      <appealing>4</appealing>
+      <Themes>
+        <Theme>historical</Theme>
+        <Theme>kid</Theme>
+        <Theme>historical</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a giant octopus</title>
+      <text>A giant octopus. The kind that lives deep in the ocean.</text>
+      <budgetChange>1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>pirate</Theme>
+        <Theme>nature</Theme>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Chantal</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a cute pet companion</title>
+      <text>It'd be better if they had a cute animal companion following them everywhere.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>forbidden love story</title>
+      <text>I love it when the girl falls in love with her enemy.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text>They end up being the only 2 humans left on earth.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-1</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
+        <Theme>romance</Theme>
+        <Theme>romance</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a skillful kid</title>
+      <text>A kid in their group ends up saving the day.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Gay</Character>
+        <Character>Chantal</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>a big treehouse</title>
+      <text>A cool treehouse at the top of a big tree. I've always wanted to build a treehouse.</text>
+      <budgetChange>1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+        <Character>Chantal</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>an abandonned land taken back by nature</title>
+      <text>Nature growing back in an abandonned land. Trees and vines growing on buildings, you know?</text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+        <Theme>postapo</Theme>
+        <Theme>nature</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+        <Character>Chantal</Character>
+      </Characters>
+    </Idea>
 	<!--
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
 	<Idea>
 	  <title></title>
       <text></text>
