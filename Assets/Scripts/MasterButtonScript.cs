@@ -8,9 +8,13 @@ public class MasterButtonScript : MonoBehaviour
 {
     public Canvas canvasMainMenu;
     public Canvas canvasObjectifs;
+    public Canvas canvasWhiteboard;
+    public Canvas canvasRoom;
     public Image canvasObjectifsBackground;
-    public float transitionTime;
-    private Image objectifBackground;
+    public Image canvasWhiteboardBackground;
+    public Image canvasRoomBackground;
+    public float transitionTimeToObjectifCanvas;
+    public float transitionTimeToGameCanvas;
     public GameObject panelTitle;
     public Image image1;
     public Image image2;
@@ -41,20 +45,25 @@ public class MasterButtonScript : MonoBehaviour
         StartCoroutine("TransitionObjectivesCanvas");
     }
 
+    public void TransitionToGameCanvas()
+    {
+        StartCoroutine("TransitionGameCanvas");
+    }
+
+
     public IEnumerator TransitionObjectivesCanvas()
     {
-        objectifBackground = canvasObjectifsBackground.GetComponent<Image>();
-        var tempColor = objectifBackground.color;
+        var tempColor = canvasObjectifsBackground.color;
         tempColor.a = 0f;
-        objectifBackground.color = tempColor;
+        canvasObjectifsBackground.color = tempColor;
 
         canvasObjectifs.gameObject.SetActive(true);        
         yield return null;
 
-        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / transitionTime)
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / transitionTimeToObjectifCanvas)
         {
-            Color newColor = new Color(1, 1, 1, Mathf.Lerp(0f, 1f, t));
-            objectifBackground.color = newColor;
+            Color newColor = new Color(canvasObjectifsBackground.color.r, canvasObjectifsBackground.color.g, canvasObjectifsBackground.color.b, Mathf.Lerp(0f, 1f, t));
+            canvasObjectifsBackground.color = newColor;
             yield return null;
         }
 
@@ -69,23 +78,34 @@ public class MasterButtonScript : MonoBehaviour
         image3.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
         startButton.interactable = true;
+        yield return null;
+    }
 
+    public IEnumerator TransitionGameCanvas()
+    {
+        var tempColor = canvasWhiteboardBackground.color;
+        var tempColor2 = canvasRoomBackground.color;
+        tempColor.a = 0f;
+        tempColor2.a = 0f;
+        canvasWhiteboardBackground.color = tempColor;
+        canvasRoomBackground.color = tempColor2;
 
+        canvasRoom.gameObject.SetActive(true);
+        canvasWhiteboard.gameObject.SetActive(true);
+        canvasObjectifs.gameObject.SetActive(false);
+        yield return null;
 
-        /*
-        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / transitionTime)
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / transitionTimeToGameCanvas)
         {
-            Color newColor = new Color(1, 1, 1, Mathf.Lerp(0f, 1f, t));
-            image1.color = newColor;
-            image2.color = newColor;
-            image3.color = newColor;
+            Color newColor = new Color(canvasWhiteboardBackground.color.r, canvasWhiteboardBackground.color.g, canvasWhiteboardBackground.color.b, Mathf.Lerp(0f, 1f, t));
+            Color newColor1 = new Color(canvasRoomBackground.color.r, canvasRoomBackground.color.g, canvasRoomBackground.color.b, Mathf.Lerp(0f, 1f, t));
+            canvasWhiteboardBackground.color = newColor;
+            canvasRoomBackground.color = newColor1;
+
             yield return null;
         }
-        */
 
-
-
-
+        MasterSoundsScript.instance.PlayMainlMusic();
         yield return null;
     }
 }

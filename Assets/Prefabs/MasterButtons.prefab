@@ -45,10 +45,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasMainMenu: {fileID: 0}
   canvasObjectifs: {fileID: 0}
+  canvasWhiteboard: {fileID: 0}
+  canvasRoom: {fileID: 0}
   canvasObjectifsBackground: {fileID: 0}
-  transitionTime: 2
+  canvasWhiteboardBackground: {fileID: 0}
+  canvasRoomBackground: {fileID: 0}
+  transitionTimeToObjectifCanvas: 1.5
+  transitionTimeToGameCanvas: 0.5
   panelTitle: {fileID: 0}
   image1: {fileID: 0}
   image2: {fileID: 0}
   image3: {fileID: 0}
   startButton: {fileID: 0}
+  brainstormManager: {fileID: 0}

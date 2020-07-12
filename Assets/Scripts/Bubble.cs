@@ -57,7 +57,6 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            Debug.Log("Left down");
             isBeingMoved = true;
             moveMouseStartPosition = Input.mousePosition;
             moveBubbleStartPosition = bubbleGroup.position;
@@ -65,7 +64,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         }
         else if (eventData.button == PointerEventData.InputButton.Right)
         {
-            Debug.Log("Right down");
+            //
         }
     }
 
