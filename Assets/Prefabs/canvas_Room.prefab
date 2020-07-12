@@ -120,10 +120,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bubblesContainer: {fileID: 5564705429692088186}
   bubblePrefabs:
-  - {fileID: 7514811575089274602, guid: 34bb2b1f097710e4a966203598d64a4b, type: 3}
   - {fileID: 7514811575089274602, guid: 66a38fced6dc2de499b6e229732e8c1d, type: 3}
-  - {fileID: 7514811575089274602, guid: c8e91cfca5b4386458d5699b711cc3c2, type: 3}
   - {fileID: 7514811575089274602, guid: 9cbdc85bea85dec4c8133a275ca1df9e, type: 3}
+  - {fileID: 7514811575089274602, guid: c8e91cfca5b4386458d5699b711cc3c2, type: 3}
+  - {fileID: 7514811575089274602, guid: 5be53f49fcad0af4b8a75dfb3f09f443, type: 3}
+  - {fileID: 7514811575089274602, guid: 70e1d1fc73f86344ea3fc9084e899be6, type: 3}
+  - {fileID: 7514811575089274602, guid: ca29992d0fbec0d45bf273ac4d1f982d, type: 3}
+  - {fileID: 7514811575089274602, guid: 34bb2b1f097710e4a966203598d64a4b, type: 3}
   bubblesHeightMargin: 30
 --- !u!114 &2387663820510640054
 MonoBehaviour:

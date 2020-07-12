@@ -15,7 +15,7 @@ public class BrainstormManager : MonoBehaviour
     private float[] timeStamps;
 
     private float elapsedTime = 0;
-    public bool brainstormStarted = false;
+    public bool ongoingBrainstorm = false;
     public RoomController roomController;
 
     private int currentCheckedTimeStamp = 0;
@@ -28,6 +28,8 @@ public class BrainstormManager : MonoBehaviour
     public Pitch selectedPitch;
 
     public WhiteBoardManager wbManager;
+
+    public MasterButtonScript masterButton;
 
     void Awake()
     {
@@ -57,13 +59,13 @@ public class BrainstormManager : MonoBehaviour
 
         
 
-        startBrainstorm();
+        //startBrainstorm();
 
     }
 
     void Update()
     {
-        if(brainstormStarted && elapsedTime <= brainstormTime)
+        if(ongoingBrainstorm && elapsedTime <= brainstormTime)
         {
             elapsedTime += Time.deltaTime;
 
@@ -79,17 +81,28 @@ public class BrainstormManager : MonoBehaviour
             }
         }
 
-        if (elapsedTime >= brainstormTime)
+        if (elapsedTime >= brainstormTime && ongoingBrainstorm)
         {
-            Debug.Log(wbManager.getResult());
+            ongoingBrainstorm = false;
+
+            masterButton.TransitionToMeetingEnd();
+
+            if (wbManager.getResult())
+            {
+                Debug.Log("Player won");
+            }
+            else
+            {
+                Debug.Log("Player lost");
+            }
         }
        
 
     }
 
-    void startBrainstorm()
+    public void startBrainstorm()
     {
-        brainstormStarted = true;
+        ongoingBrainstorm = true;
         elapsedTime = 0;
 
         ideas = ideaContainer.ideas;

@@ -1,84 +1,135 @@
 <?xml version="1.0"?>
 <IdeaCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Ideas>
-  
-    <Idea>
-      <text>this is the first test dialog</text>
+	
+	<Idea>
+	  <title>Brad Pitt</title>
+      <text>Why not cast Brat Pid?</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
+      <budgetChange>5</budgetChange>
+      <pegi>3</pegi>
+      <appealing>5</appealing>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Gay</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+
+	
+	
+	<Idea>
+	  <title>motion capture</title>
+      <text>Now everyone use motion capture!</text>
+      <fontSize>42</fontSize>
+      <budgetChange>3</budgetChange>
+      <pegi>3</pegi>
+      <appealing>2</appealing>
+      <Characters>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+	  <title>Hawaii</title>
+      <text>I think we should shoot some scenes in location. In Hawaii</text>
+      <fontSize>42</fontSize>
+      <budgetChange>4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>4</appealing>
       <Themes>
-        <Theme>pirate</Theme>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+	  <title>UglyCity</title>
+      <text>UglyCity is giving substential subventions if we go shoot there</text>
+      <fontSize>42</fontSize>
+      <budgetChange>-4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>-4</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+	  <title>product placements</title>
+      <text>I've got some good contacts to have product placements</text>
+      <fontSize>42</fontSize>
+      <budgetChange>-3</budgetChange>
+      <pegi>3</pegi>
+      <appealing>-2</appealing>
+      <Characters>
+        <Character>Boss</Character>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	
+	<Idea>
+	  <title>telekinectic tire</title>
+      <text>And then there is a telekinetic tire that goes on killing people!</text>
+      <fontSize>42</fontSize>
+      <budgetChange>1</budgetChange>
+      <pegi>16</pegi>
+      <appealing>3</appealing>
+      <Themes>
         <Theme>scifi</Theme>
+        <Theme>postapo</Theme>
       </Themes>
       <Characters>
-        <Character>0</Character>
-        <Character>1</Character>
-        <Character>2</Character>
-        <Character>3</Character>
+        <Character>Chantal</Character>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
       </Characters>
     </Idea>
 	
 	<Idea>
-      <text>this is the second test dialog</text>
+	  <title>chainsaw murder</title>
+      <text>And why not a double murder with a chainsaw?</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
+      <budgetChange>1</budgetChange>
+      <pegi>18</pegi>
+      <appealing>4</appealing>
       <Themes>
-        <Theme>fantasy</Theme>
-        <Theme>space</Theme>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
       </Themes>
       <Characters>
-        <Character>0</Character>
-        <Character>1</Character>
-        <Character>2</Character>
-        <Character>3</Character>
+        <Character>Gay</Character>
+        <Character>Chantal</Character>
+        <Character>Boss</Character>
       </Characters>
     </Idea>
 	
 	<Idea>
-      <text>this is the third test dialog</text>
+	  <title>cartoon cameo</title>
+      <text>My kids would love a cameo from their favourite cartoon character</text>
       <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
+      <budgetChange>4</budgetChange>
+      <pegi>3</pegi>
+      <appealing>4</appealing>
       <Themes>
-        <Theme>scifi</Theme>
-        <Theme>western</Theme>
+        <Theme>kid</Theme>
+        <Theme>kid</Theme>
       </Themes>
       <Characters>
-        <Character>0</Character>
-        <Character>1</Character>
-        <Character>2</Character>
-        <Character>3</Character>
-      </Characters>
-    </Idea>
-	
-	<Idea>
-      <text>this is the fourth test dialog</text>
-      <fontSize>42</fontSize>
-      <bubbleWidth>0</bubbleWidth>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <bubbleType>Count</bubbleType>
-      <Themes>
-        <Theme>western</Theme>
-        <Theme>fantasy</Theme>
-      </Themes>
-      <Characters>
-        <Character>0</Character>
-        <Character>1</Character>
-        <Character>2</Character>
-        <Character>3</Character>
+        <Character>Gay</Character>
+        <Character>Chantal</Character>
+        <Character>Boss</Character>
+        <Character>Woman</Character>
       </Characters>
     </Idea>
 	

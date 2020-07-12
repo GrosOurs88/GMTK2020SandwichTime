@@ -8,10 +8,11 @@ public class Idea
 {
 
     
-    public string text;
-    public float fontSize = 42, bubbleWidth; //bubbleWidth is a percentage
-    public int budgetChange, pegi,appealing;
-    public BubbleType bubbleType;
+    public string text, title; //the title is only one word
+    public int fontSize = 42; //bubbleWidth is a percentage
+    public int budgetChange = 0;
+    public int pegi = 0;
+    public int appealing = 0;
 
     [XmlArray("Themes")]
     [XmlArrayItem("Theme")]
@@ -19,35 +20,26 @@ public class Idea
 
     [XmlArray("Characters")]
     [XmlArrayItem("Character")]
-    public int[] characters;
+    public Character[] characters;
 
     [XmlArray("Events")]
     [XmlArrayItem("Event")]
     public Event[] events;
 
-    [XmlIgnore]
-    public Character selectedCharacter;
-
-    //public Idea(string _text, float _fontSize, float _bubbleWidth, int _budgetChange, int _audienceChange, int _marketFitChange, int _prodValueChange, BubbleType _bubbleType)
-    //{
-    //    themes = null;
-    //    characters = null;
-    //    events = null;
-    //}
 }
 
-public enum BubbleType
-{
-    Count
-}
 
 public enum Theme
 {
     pirate,
     scifi,
-    fantasy,
     space,
+    fantasy,
     western,
+    historical,
+    nature,
+    kid,
+    postapo,
     count
 }
 
@@ -59,5 +51,12 @@ public enum Event
 
 public enum Character
 {
+    Chantal,
+    Boss,
+    Surfer,
+    Gay,
+    Token,
+    Woman,
+    Fabrice,
     Count
 }

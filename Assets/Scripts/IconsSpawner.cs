@@ -114,6 +114,10 @@ public class IconsSpawner : MonoBehaviour
                 }
             case IconType.Audience:
                 {
+                    if (amount == 0)
+                    {
+                        return;
+                    }
                     sprite = Resources.Load<Sprite>("Icons/Audience_" + amount.ToString());
                     IconToSpawnQueue.Add(sprite);
 

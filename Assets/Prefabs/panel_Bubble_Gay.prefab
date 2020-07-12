@@ -11,18 +11,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1893670189769602202, guid: 35fd31ed4cbb1d24b81a866b55247d96,
+      objectReference: {fileID: -3557554893070573299, guid: 35fd31ed4cbb1d24b81a866b55247d96,
         type: 3}
     - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0707f06ab34f7f04fa2aee857e2690ac,
+      objectReference: {fileID: 21300000, guid: bd7f3fde94964e6499ca43d01992dbc0,
         type: 3}
     - target: {fileID: 3578502534610842871, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
       propertyPath: m_Name
-      value: panel_Bubble_Fabrice
+      value: panel_Bubble_Gay
       objectReference: {fileID: 0}
     - target: {fileID: 5878686212434037158, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
