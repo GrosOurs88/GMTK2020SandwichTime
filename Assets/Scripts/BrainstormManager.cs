@@ -47,6 +47,9 @@ public class BrainstormManager : MonoBehaviour
         roomController.IdeaDiscarded += desactivateIdea;
         roomController.IdeaSelected += desactivateIdea;
 
+        roomController.IdeaSelected += selectedSound;
+        roomController.IdeaDiscarded += discardedSound;
+
         activeIdeas = new List<Idea>();
         timeStamps = new float[bubbleAmount];
 
@@ -73,7 +76,7 @@ public class BrainstormManager : MonoBehaviour
             {
                 if (elapsedTime >= timeStamps[currentCheckedTimeStamp])
                 {
-                    
+                    MasterSoundsScript.instance.PlayNewMessage();
 
                     activateIdea(getRandomIdea());
                     currentCheckedTimeStamp++;
@@ -154,5 +157,15 @@ public class BrainstormManager : MonoBehaviour
     public float getElapsedTime()
     {
         return elapsedTime;
+    }
+
+    private void selectedSound(Idea i)
+    {
+        MasterSoundsScript.instance.PlayValidateIdea();
+    }
+
+    private void discardedSound(Idea i)
+    {
+        MasterSoundsScript.instance.PlayDeleteIdea();
     }
 }

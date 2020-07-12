@@ -99,7 +99,8 @@ public class WhiteBoardManager : MonoBehaviour
 
     public string getTitle()
     {
-        return null;
+        string[] titles = { "Our great movie" , "Your best blockbuster", "The future Oscar nominee"};
+        return titles[UnityEngine.Random.Range(0,titles.Length)];
     }
 
     public int getPegi()

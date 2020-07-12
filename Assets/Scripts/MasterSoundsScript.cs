@@ -81,6 +81,11 @@ public class MasterSoundsScript : MonoBehaviour
         sfxSource.PlayOneShot(buttonClic);
     }
 
+    public void PlayNewMessage()
+    {
+        sfxSource.PlayOneShot(newMessage);
+    }
+
     public void PlayValidateIdea()
     {
         sfxSource.PlayOneShot(validateIdea);
