@@ -167,8 +167,7 @@ public class MasterButtonScript : MonoBehaviour
         panelPitchBudgets.gameObject.SetActive(false);
 
         panelPitchNotation.gameObject.SetActive(true);
-        yield return new WaitForSeconds(10f);
-        panelPitchNotation.gameObject.SetActive(false);
+        yield return new WaitForSeconds(3f);
 
         buttonRestart.gameObject.SetActive(true);
         yield return null;
