@@ -32,13 +32,14 @@ public class MasterButtonScript : MonoBehaviour
     public BrainstormManager brainstormManager;
     public WhiteBoardManager whiteBoardManager;
 
+    public List<Sprite> pegi = new List<Sprite>();
+    public Sprite happyFace;
+    public Sprite unHaappyFace;
+
     public TextMeshProUGUI gameTitle;
     public Image gamePegi;
-    public Image gamePegiHappyUnhappy;
     public TextMeshProUGUI memorableMoments;
-    public Image memorableMomentsHappyUnhappy;
     public TextMeshProUGUI budget;
-    public Image budgetHappyUnhappy;
     public Image notation;
 
 
@@ -102,6 +103,47 @@ public class MasterButtonScript : MonoBehaviour
             panelBlackscreenBackground.color = newColor;
             yield return null;
         }
+
+         //FILL Empty INfos
+         gameTitle.text = whiteBoardManager.getTitle();
+
+        switch (whiteBoardManager.getPegi())
+        {
+            case 3:
+                gamePegi.sprite = pegi[0];
+                break;
+            case 7:
+                gamePegi.sprite = pegi[1];
+                break;
+            case 10:
+                gamePegi.sprite = pegi[2];
+                break;
+            case 12:
+                gamePegi.sprite = pegi[3];
+                break;
+            case 16:
+                gamePegi.sprite = pegi[4];
+                break;
+            case 18:
+                gamePegi.sprite = pegi[5];
+                break;
+
+        }
+
+        memorableMoments.text = "So our game is going to feature a " + whiteBoardManager.getMostAppealing() + " and a ... " + whiteBoardManager.getLeastAppealing();
+
+        budget.text = whiteBoardManager.getBudget().ToString();
+
+        if(whiteBoardManager.getResult())
+        {
+            notation.sprite = happyFace; // gagné :)
+        }
+        else
+        {
+            notation.sprite = unHaappyFace; // perdu :(
+        }
+        //FILL Empty INfos
+
 
         canvasWhiteboard.gameObject.SetActive(false);
         canvasRoom.gameObject.SetActive(false);
