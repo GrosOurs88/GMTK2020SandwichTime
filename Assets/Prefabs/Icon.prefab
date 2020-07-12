@@ -84,6 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7533409354513204537}
   - component: {fileID: 8675427770378322627}
+  - component: {fileID: 6725215411657902122}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -124,5 +125,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToLive: 1
-  image: {fileID: 0}
-  canvasGroup: {fileID: 0}
+  speed: 500
+  image: {fileID: 4496314741291946103}
+  canvasGroup: {fileID: 6725215411657902122}
+--- !u!225 &6725215411657902122
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398356758254185821}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

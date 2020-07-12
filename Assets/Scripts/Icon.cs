@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Icon : MonoBehaviour
 {
     public float timeToLive = 1f;
+    public float speed = 100f;
     public Image image;
     public CanvasGroup canvasGroup;
 
@@ -15,7 +16,8 @@ public class Icon : MonoBehaviour
     {
         timeAlive += Time.deltaTime;
 
-        canvasGroup.alpha = 1- (timeAlive / timeToLive); 
+        canvasGroup.alpha = 1- (timeAlive / timeToLive);
+        transform.position += Vector3.up * Time.deltaTime * speed;
 
         if (timeAlive >= timeToLive)
         {

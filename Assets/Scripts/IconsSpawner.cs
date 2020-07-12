@@ -6,9 +6,22 @@ public class IconsSpawner : MonoBehaviour
 {
     public GameObject iconPrefab;
     public float iconSpawnDelay = 0.2f;
+    public RectTransform[] iconSpawnPositions;
+
+    private RectTransform lastIconSpawnPosition;
 
     private float timeSinceLastSpawn;
     private List<Sprite> IconToSpawnQueue;
+
+    private void Awake()
+    {
+        IconToSpawnQueue = new List<Sprite>();
+
+        //DEBUG
+        QueueIconSpawn(IconType.Budget, 4);
+        QueueIconSpawn(IconType.Appeal, 2);
+        QueueIconSpawn(IconType.Audience, 7);
+    }
 
     private void Update()
     {
@@ -33,7 +46,15 @@ public class IconsSpawner : MonoBehaviour
     
     private void SpawnIcon(Sprite sprite)
     {
-        Vector3 pos = new Vector3(Random.Range(-50f, 50f), 0f, 0f);
+        RectTransform spawn_rect = iconSpawnPositions[Random.Range(0, iconSpawnPositions.Length)];
+        if (spawn_rect == lastIconSpawnPosition)
+        {
+            spawn_rect = iconSpawnPositions[Random.Range(0, iconSpawnPositions.Length)];
+        }
+        lastIconSpawnPosition = spawn_rect;
+
+        Vector3 pos = iconSpawnPositions[Random.Range(0, iconSpawnPositions.Length)].position;
+
         Instantiate(iconPrefab, pos, Quaternion.identity, transform).GetComponent<Icon>().image.sprite = sprite;
     }
 
@@ -59,6 +80,10 @@ public class IconsSpawner : MonoBehaviour
                         sprite = Resources.Load<Sprite>("Icons/BudgetDown");
                     }
 
+                    for (int i = amount; i > 0; i--)
+                    {
+                        IconToSpawnQueue.Add(sprite);
+                    }
                     break;
                 }
             case IconType.Appeal:
@@ -72,20 +97,21 @@ public class IconsSpawner : MonoBehaviour
                         sprite = Resources.Load<Sprite>("Icons/AppealDown");
                     }
 
+                    for (int i = amount; i > 0; i--)
+                    {
+                        IconToSpawnQueue.Add(sprite);
+                    }
                     break;
                 }
             case IconType.Audience:
                 {
                     sprite = Resources.Load<Sprite>("Icons/Audience_" + amount.ToString());
+                    IconToSpawnQueue.Add(sprite);
 
                     break;
                 }
         }
         
-        for (int i = amount; i>0; i--)
-        {
-            IconToSpawnQueue.Add(sprite);
-        }
     }
 
 }
