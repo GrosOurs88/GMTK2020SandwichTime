@@ -24,6 +24,7 @@ public class BrainstormManager : MonoBehaviour
     private List<Idea> activeIdeas;
     private List<Idea> ideas;
 
+    private Pitch[] pitchs;
 
     void Awake()
     {
@@ -44,6 +45,8 @@ public class BrainstormManager : MonoBehaviour
         }
 
         Array.Sort(timeStamps);
+
+        pitchs = Resources.LoadAll<Pitch>("Pitchs");
 
         startBrainstorm();
 
@@ -122,5 +125,10 @@ public class BrainstormManager : MonoBehaviour
         ideas.Remove(idea);
 
         return idea;
+    }
+
+    private Pitch getRandomPitch()
+    {
+        return pitchs[UnityEngine.Random.Range(0, pitchs.Length)];
     }
 }
