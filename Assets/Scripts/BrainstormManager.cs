@@ -87,6 +87,8 @@ public class BrainstormManager : MonoBehaviour
 
             masterButton.TransitionToMeetingEnd();
 
+
+
             if (wbManager.getResult())
             {
                 Debug.Log("Player won");

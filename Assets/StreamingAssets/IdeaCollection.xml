@@ -5,7 +5,6 @@
 	<Idea>
 	  <title>Brad Pitt</title>
       <text>Why not cast Brat Pid?</text>
-      <fontSize>42</fontSize>
       <budgetChange>5</budgetChange>
       <pegi>3</pegi>
       <appealing>5</appealing>
@@ -21,7 +20,6 @@
 	<Idea>
 	  <title>motion capture</title>
       <text>Now everyone use motion capture!</text>
-      <fontSize>42</fontSize>
       <budgetChange>3</budgetChange>
       <pegi>3</pegi>
       <appealing>2</appealing>
@@ -34,8 +32,7 @@
 	
 	<Idea>
 	  <title>Hawaii</title>
-      <text>I think we should shoot some scenes in location. In Hawaii</text>
-      <fontSize>42</fontSize>
+      <text>I think we should shoot some scenes in location. In Hawaii.</text>
       <budgetChange>4</budgetChange>
       <pegi>3</pegi>
       <appealing>4</appealing>
@@ -49,8 +46,7 @@
 	
 	<Idea>
 	  <title>UglyCity</title>
-      <text>UglyCity is giving substential subventions if we go shoot there</text>
-      <fontSize>42</fontSize>
+      <text>UglyCity is giving substential subventions if we go shoot there.</text>
       <budgetChange>-4</budgetChange>
       <pegi>3</pegi>
       <appealing>-4</appealing>
@@ -66,8 +62,7 @@
 	
 	<Idea>
 	  <title>product placements</title>
-      <text>I've got some good contacts to have product placements</text>
-      <fontSize>42</fontSize>
+      <text>I've got some good contacts to have product placements.</text>
       <budgetChange>-3</budgetChange>
       <pegi>3</pegi>
       <appealing>-2</appealing>
@@ -81,7 +76,6 @@
 	<Idea>
 	  <title>telekinectic tire</title>
       <text>And then there is a telekinetic tire that goes on killing people!</text>
-      <fontSize>42</fontSize>
       <budgetChange>1</budgetChange>
       <pegi>16</pegi>
       <appealing>3</appealing>
@@ -99,7 +93,6 @@
 	<Idea>
 	  <title>chainsaw murder</title>
       <text>And why not a double murder with a chainsaw?</text>
-      <fontSize>42</fontSize>
       <budgetChange>1</budgetChange>
       <pegi>18</pegi>
       <appealing>4</appealing>
@@ -116,8 +109,7 @@
 	
 	<Idea>
 	  <title>cartoon cameo</title>
-      <text>My kids would love a cameo from their favourite cartoon character</text>
-      <fontSize>42</fontSize>
+      <text>My kids would love a cameo from their favourite cartoon character.</text>
       <budgetChange>4</budgetChange>
       <pegi>3</pegi>
       <appealing>4</appealing>
@@ -132,6 +124,447 @@
         <Character>Woman</Character>
       </Characters>
     </Idea>
+	<Idea>
+	  <title>Building explosion</title>
+      <text>We can have a whole building exploding!</text>
+      <budgetChange>5</budgetChange>
+      <pegi>0</pegi>
+      <appealing>3</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
+        <Theme>western</Theme>
+      </Themes>
+      <Characters>
+        <Character>Surfer</Character>
+        <Character>Token</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>10 min sequence-shot</title>
+      <text>I love long one sequence shots. Let's aim for a 10 min sequence-shot.</text>
+      <budgetChange>3</budgetChange>
+      <pegi>0</pegi>
+      <appealing>1</appealing>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Battle with 5000 extras</title>
+      <text>An epic battle with 5000 extras.</text>
+      <budgetChange>5</budgetChange>
+      <pegi>12</pegi>
+      <appealing>4</appealing>
+      <Themes>
+        <Theme>fantasy</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>historical</Theme>
+        <Theme>historical</Theme>
+        <Theme>postapo</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Boss</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Huuuuggee bomb explosion</title>
+      <text>And then a huuuuuugggggeeeee bomb explodes!!</text>
+      <budgetChange>2</budgetChange>
+      <pegi>12</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>postapo</Theme>
+        <Theme>postapo</Theme>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+      </Themes>
+      <Characters>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
 	
+	<!--
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text></text>
+      <budgetChange>0</budgetChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
+      <Themes>
+        <Theme></Theme>
+        <Theme></Theme>
+      </Themes>
+      <Characters>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+        <Character></Character>
+      </Characters>
+    </Idea>
+	-->
   </Ideas>
 </IdeaCollection>
