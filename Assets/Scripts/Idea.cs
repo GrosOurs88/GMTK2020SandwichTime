@@ -57,5 +57,12 @@ public enum Event
 
 public enum Character
 {
+    Chantal,
+    Boss,
+    Surfer,
+    Gay,
+    Token,
+    Woman,
+    Fabrice,
     Count
 }
