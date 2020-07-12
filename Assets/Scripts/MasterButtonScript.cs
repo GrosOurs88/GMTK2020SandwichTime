@@ -90,6 +90,8 @@ public class MasterButtonScript : MonoBehaviour
         canvasFinish.gameObject.SetActive(true);
         MasterSoundsScript.instance.PlayMeetingEnd();
         MasterSoundsScript.instance.PlayMeetingEndMusic();
+
+        whiteBoardManager.endInfos();
     }
 
     public IEnumerator TransitionPitchCanvas()

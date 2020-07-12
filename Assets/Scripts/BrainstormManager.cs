@@ -87,16 +87,6 @@ public class BrainstormManager : MonoBehaviour
 
             masterButton.TransitionToMeetingEnd();
 
-
-
-            if (wbManager.getResult())
-            {
-                Debug.Log("Player won");
-            }
-            else
-            {
-                Debug.Log("Player lost");
-            }
         }
        
 
@@ -117,7 +107,6 @@ public class BrainstormManager : MonoBehaviour
         activeIdeas.Add(idea);
         roomController.DisplayIdeaBubble(idea);
 
-        Debug.Log("display bubble");
 
         if (activeIdeas.Count > MaxIdeaQueue)
         {
@@ -160,5 +149,10 @@ public class BrainstormManager : MonoBehaviour
     private Pitch getRandomPitch()
     {
         return pitchs[UnityEngine.Random.Range(0, pitchs.Length)];
+    }
+
+    public float getElapsedTime()
+    {
+        return elapsedTime;
     }
 }

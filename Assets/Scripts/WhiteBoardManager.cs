@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ public class WhiteBoardManager : MonoBehaviour
     public RoomController roomController;
 
     public Pitch objective;
+
+    private float budgetBase = 15;
     public void Start()
     {
         whiteBoard = new List<Idea>();
@@ -22,7 +25,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public bool getResult()
     {
-        float budget = 0;
+        float budget = budgetBase;
         int pegi = 3;
         float appealing = 0;
         List<Theme> usedThemes = new List<Theme>();
@@ -152,7 +155,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public float getBudget()
     {
-        float total = 0;
+        float total = budgetBase;
 
         foreach(Idea i in whiteBoard)
         {
@@ -160,5 +163,37 @@ public class WhiteBoardManager : MonoBehaviour
         }
 
         return total;
+    }
+
+
+    public void endInfos()
+    {
+        Debug.Log("-------- ENDING INFOS --------");
+
+        Debug.Log("number of selected ideas " + whiteBoard.Count);
+
+        Debug.Log("Unedited budget is " + getBudget() + "   budget in $ is " + getBudget() * 312745);
+
+        foreach(Theme t in Enum.GetValues(typeof(Theme)))
+        {
+            int occurence = 0;
+
+            foreach (Idea i in whiteBoard)
+            {
+                if (i.themes != null)
+                {
+                    foreach (Theme t2 in i.themes)
+                    {
+                        if (t2 == t)
+                            occurence++;
+                    }
+                }
+            }
+
+
+            Debug.Log("occurences of " + t + " = " + occurence);
+        }
+
+
     }
 }
