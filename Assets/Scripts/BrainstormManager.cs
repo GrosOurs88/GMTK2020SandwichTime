@@ -25,10 +25,15 @@ public class BrainstormManager : MonoBehaviour
     private List<Idea> ideas;
 
     private Pitch[] pitchs;
+    public Pitch selectedPitch;
 
     void Awake()
     {
         ideaContainer = IdeasContainer.Load();
+
+        pitchs = Resources.LoadAll<Pitch>("Pitchs");
+
+        selectedPitch = getRandomPitch();
     }
 
     void Start()
@@ -46,7 +51,7 @@ public class BrainstormManager : MonoBehaviour
 
         Array.Sort(timeStamps);
 
-        pitchs = Resources.LoadAll<Pitch>("Pitchs");
+        
 
         startBrainstorm();
 
