@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <IdeaCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Ideas>
+  
     <Idea>
       <text>this is the first test dialog</text>
       <fontSize>42</fontSize>
       <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
-      <audienceChange>0</audienceChange>
-      <marketFitChange>0</marketFitChange>
-      <prodValueChange>0</prodValueChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
       <bubbleType>Count</bubbleType>
       <Themes>
-        <Theme>Count</Theme>
-        <Theme>Count</Theme>
+        <Theme>pirate</Theme>
+        <Theme>scifi</Theme>
       </Themes>
       <Characters>
         <Character>0</Character>
@@ -27,13 +27,12 @@
       <fontSize>42</fontSize>
       <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
-      <audienceChange>0</audienceChange>
-      <marketFitChange>0</marketFitChange>
-      <prodValueChange>0</prodValueChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
       <bubbleType>Count</bubbleType>
       <Themes>
-        <Theme>Count</Theme>
-        <Theme>Count</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>space</Theme>
       </Themes>
       <Characters>
         <Character>0</Character>
@@ -48,13 +47,12 @@
       <fontSize>42</fontSize>
       <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
-      <audienceChange>0</audienceChange>
-      <marketFitChange>0</marketFitChange>
-      <prodValueChange>0</prodValueChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
       <bubbleType>Count</bubbleType>
       <Themes>
-        <Theme>Count</Theme>
-        <Theme>Count</Theme>
+        <Theme>scifi</Theme>
+        <Theme>western</Theme>
       </Themes>
       <Characters>
         <Character>0</Character>
@@ -69,13 +67,12 @@
       <fontSize>42</fontSize>
       <bubbleWidth>0</bubbleWidth>
       <budgetChange>0</budgetChange>
-      <audienceChange>0</audienceChange>
-      <marketFitChange>0</marketFitChange>
-      <prodValueChange>0</prodValueChange>
+      <pegi>0</pegi>
+      <appealing>0</appealing>
       <bubbleType>Count</bubbleType>
       <Themes>
-        <Theme>Count</Theme>
-        <Theme>Count</Theme>
+        <Theme>western</Theme>
+        <Theme>fantasy</Theme>
       </Themes>
       <Characters>
         <Character>0</Character>
@@ -84,5 +81,6 @@
         <Character>3</Character>
       </Characters>
     </Idea>
+	
   </Ideas>
 </IdeaCollection>

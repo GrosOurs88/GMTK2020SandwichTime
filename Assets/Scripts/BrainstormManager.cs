@@ -79,6 +79,12 @@ public class BrainstormManager : MonoBehaviour
             }
         }
 
+        if (elapsedTime >= brainstormTime)
+        {
+            Debug.Log(wbManager.getResult());
+        }
+       
+
     }
 
     void startBrainstorm()

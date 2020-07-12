@@ -10,6 +10,11 @@ public class Pitch : ScriptableObject
     public string text2;
     public string text3;
 
-    public float BudgetMin, budgetMax;
-    public float AudienceMax;
+    public float budgetMax;
+    public float audienceMax;
+    public float appealing;
+
+    public Theme[] themesWanted;
+    public int[] themeOccurrence;
 }
+
