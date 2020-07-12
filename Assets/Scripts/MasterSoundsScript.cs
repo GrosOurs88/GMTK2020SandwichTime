@@ -30,6 +30,8 @@ public class MasterSoundsScript : MonoBehaviour
     public List<AudioClip> Character3Blabla = new List<AudioClip>();
     public List<AudioClip> Character4Blabla = new List<AudioClip>();
     public List<AudioClip> Character5Blabla = new List<AudioClip>();
+    public List<AudioClip> Character6Blabla = new List<AudioClip>();
+    public List<AudioClip> Character7Blabla = new List<AudioClip>();
     private int randomIndex;
 
     //Snapshots
@@ -138,4 +140,26 @@ public class MasterSoundsScript : MonoBehaviour
         randomIndex = Random.Range(0, Character4Blabla.Count - 1);
         sfxSource.PlayOneShot(Character4Blabla[randomIndex]);
     }
+
+    public void PlayCharacter5Blabla()
+    {
+        sfxSource.PlayOneShot(newMessage);
+        randomIndex = Random.Range(0, Character5Blabla.Count - 1);
+        sfxSource.PlayOneShot(Character5Blabla[randomIndex]);
+    }
+
+    public void PlayCharacter6Blabla()
+    {
+        sfxSource.PlayOneShot(newMessage);
+        randomIndex = Random.Range(0, Character6Blabla.Count - 1);
+        sfxSource.PlayOneShot(Character6Blabla[randomIndex]);
+    }
+
+    public void PlayCharacter7Blabla()
+    {
+        sfxSource.PlayOneShot(newMessage);
+        randomIndex = Random.Range(0, Character7Blabla.Count - 1);
+        sfxSource.PlayOneShot(Character7Blabla[randomIndex]);
+    }
+
 }
