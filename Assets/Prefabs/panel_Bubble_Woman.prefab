@@ -7,25 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 38730081823605939, guid: 4d9f92cb8b996944d9158c4262d0031e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6066236442320969475, guid: 35fd31ed4cbb1d24b81a866b55247d96,
+        type: 3}
     - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
-      propertyPath: m_Color.r
-      value: 0.93333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 88061047642b2534a84b64cd8ab212df,
         type: 3}
-      propertyPath: m_Color.g
-      value: 0.011764677
-      objectReference: {fileID: 0}
-    - target: {fileID: 105478141761391964, guid: 4d9f92cb8b996944d9158c4262d0031e,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.9227763
-      objectReference: {fileID: 0}
     - target: {fileID: 3578502534610842871, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
       propertyPath: m_Name
-      value: panel_Bubble_Hugo
+      value: panel_Bubble_Woman
       objectReference: {fileID: 0}
     - target: {fileID: 5878686212434037158, guid: 4d9f92cb8b996944d9158c4262d0031e,
         type: 3}
