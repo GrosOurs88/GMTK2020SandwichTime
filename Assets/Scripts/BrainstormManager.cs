@@ -27,6 +27,8 @@ public class BrainstormManager : MonoBehaviour
     private Pitch[] pitchs;
     public Pitch selectedPitch;
 
+    public WhiteBoardManager wbManager;
+
     void Awake()
     {
         ideaContainer = IdeasContainer.Load();
@@ -34,6 +36,8 @@ public class BrainstormManager : MonoBehaviour
         pitchs = Resources.LoadAll<Pitch>("Pitchs");
 
         selectedPitch = getRandomPitch();
+
+        wbManager.objective = selectedPitch;
     }
 
     void Start()
