@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 406320eefde5bcf4196a0ed429a9c2a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
   m_Name: Pitch 1
   m_EditorClassIdentifier: 
-  text1: 
-  text2: 
-  text3: 
-  BudgetMin: 0
-  budgetMax: 0
-  AudienceMax: 0
+  text1: byhihoh
+  text2: pjiphhui
+  text3: pjipji
+  BudgetMin: 5744
+  budgetMax: 58
+  AudienceMax: 4
