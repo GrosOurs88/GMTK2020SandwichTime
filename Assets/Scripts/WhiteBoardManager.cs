@@ -80,4 +80,38 @@ public class WhiteBoardManager : MonoBehaviour
         
         return budget <= objective.budgetMax && pegi <= objective.audienceMax && appealing >= objective.appealing && themeCheck;
     }
+
+    public string getTitle()
+    {
+        return null;
+    }
+
+    public int getPegi()
+    {
+        int pegi = 0;
+        foreach (Idea idea in whiteBoard)
+        {
+            if (idea.pegi > pegi)
+                pegi = idea.pegi;
+        }
+
+        return pegi;
+    }
+
+    //public string getMostAppealing()
+    //{
+    //    string ideaTitle;
+    //    float appeal = 0;
+
+    //    foreach (Idea idea in whiteBoard)
+    //    {
+    //        if(appeal < idea.appealing)
+    //        {
+    //            appeal = idea.appealing;
+    //            ideaTitle = idea.title;
+    //        }
+    //    }
+
+    //    return 
+    //}
 }
