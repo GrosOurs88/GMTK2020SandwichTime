@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomController: {fileID: 0}
-  objective: {fileID: 0}
+  objective: {fileID: 11400000, guid: 3982f773eae25114093246d795f73498, type: 2}

@@ -46,7 +46,8 @@ MonoBehaviour:
   brainstormTime: 5
   bubbleAmount: 4
   MaxIdeaQueue: 4
-  brainstormStarted: 0
+  ongoingBrainstorm: 0
   roomController: {fileID: 0}
   selectedPitch: {fileID: 0}
   wbManager: {fileID: 0}
+  masterButton: {fileID: 0}
