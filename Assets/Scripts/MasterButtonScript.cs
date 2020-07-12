@@ -10,6 +10,7 @@ public class MasterButtonScript : MonoBehaviour
     public Canvas canvasObjectifs;
     public Canvas canvasWhiteboard;
     public Canvas canvasRoom;
+    public Canvas canvasFinish;
     public Image canvasObjectifsBackground;
     public Image canvasWhiteboardBackground;
     public Image canvasRoomBackground;
@@ -40,6 +41,11 @@ public class MasterButtonScript : MonoBehaviour
         image3.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text3;
     }
 
+    private void Update()
+    {
+       
+    }
+
     public void TransitionToObjectivesCanvas()
     {
         StartCoroutine("TransitionObjectivesCanvas");
@@ -50,6 +56,12 @@ public class MasterButtonScript : MonoBehaviour
         StartCoroutine("TransitionGameCanvas");
     }
 
+    public void TransitionToMeetingEnd()
+    {
+        canvasFinish.gameObject.SetActive(true);
+        MasterSoundsScript.instance.PlayMeetingEnd();
+        MasterSoundsScript.instance.PlayMeetingEndMusic();
+    }
 
     public IEnumerator TransitionObjectivesCanvas()
     {
