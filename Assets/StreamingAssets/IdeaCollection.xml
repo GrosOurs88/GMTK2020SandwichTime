@@ -305,75 +305,84 @@
         <Character>Gay</Character>
       </Characters>
     </Idea>
+	<Idea>
+	  <title>Historical costumes</title>
+      <text>Why not use original historical costumes?</text>
+      <budgetChange>3</budgetChange>
+      <pegi>0</pegi>
+      <appealing>2</appealing>
+      <Themes>
+        <Theme>pirate</Theme>
+        <Theme>western</Theme>
+        <Theme>historical</Theme>
+        <Theme>historical</Theme>
+      </Themes>
+      <Characters>
+        <Character>Chantal</Character>
+        <Character>Token</Character>
+        <Character>Gay</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Romance with lizard girl</title>
+      <text>Maybe... the main character could date a lizard girl.</text>
+      <budgetChange>0</budgetChange>
+      <pegi>12</pegi>
+      <appealing>1</appealing>
+      <Themes>
+        <Theme>scifi</Theme>
+        <Theme>scifi</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>fantasy</Theme>
+        <Theme>romance</Theme>
+      </Themes>
+      <Characters>
+        <Character>Woman</Character>
+        <Character>Chantal</Character>
+        <Character>Fabrice</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Actors are all plants</title>
+      <text>All. Actors. Are. Plants. You all get the symbolism of that, right?</text>
+      <budgetChange>-5</budgetChange>
+      <pegi>16</pegi>
+      <appealing>-3</appealing>
+      <Themes>
+        <Theme>nature</Theme>
+        <Theme>nature</Theme>
+        <Theme>nature</Theme>
+      </Themes>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title>Everything happens at night</title>
+      <text>Everything happens at night. Or in very dark rooms. Because the hero is sad.</text>
+      <budgetChange>-1</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-2</appealing>
+      <Characters>
+        <Character>Gay</Character>
+        <Character>Surfer</Character>
+        <Character>Woman</Character>
+      </Characters>
+    </Idea>
+	<Idea>
+	  <title></title>
+      <text>All sound FX are done by mouth. I can help by doing mouth trumpet.</text>
+      <budgetChange>-4</budgetChange>
+      <pegi>0</pegi>
+      <appealing>-5</appealing>
+      <Characters>
+        <Character>Fabrice</Character>
+        <Character>Token</Character>
+      </Characters>
+    </Idea>
 	<!--
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
-	<Idea>
-	  <title></title>
-      <text></text>
-      <budgetChange>0</budgetChange>
-      <pegi>0</pegi>
-      <appealing>0</appealing>
-      <Themes>
-        <Theme></Theme>
-        <Theme></Theme>
-      </Themes>
-      <Characters>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-        <Character></Character>
-      </Characters>
-    </Idea>
 	<Idea>
 	  <title></title>
       <text></text>
