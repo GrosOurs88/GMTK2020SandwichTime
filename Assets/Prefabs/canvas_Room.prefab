@@ -119,7 +119,6 @@ MonoBehaviour:
   - {fileID: 7514811575089274602, guid: c8e91cfca5b4386458d5699b711cc3c2, type: 3}
   - {fileID: 7514811575089274602, guid: 9cbdc85bea85dec4c8133a275ca1df9e, type: 3}
   bubblesHeightMargin: 30
-  first_bubble: {fileID: 0}
 --- !u!1 &8462144286955645301
 GameObject:
   m_ObjectHideFlags: 0
