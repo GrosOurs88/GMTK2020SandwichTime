@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cb28eb0e85a1548bdfe7308dba8bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brainstormTime: 5
-  bubbleAmount: 4
+  brainstormTime: 120
+  bubbleAmount: 50
   MaxIdeaQueue: 4
   ongoingBrainstorm: 0
   roomController: {fileID: 0}
