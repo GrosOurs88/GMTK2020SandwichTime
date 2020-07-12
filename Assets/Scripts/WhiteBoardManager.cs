@@ -175,7 +175,15 @@ public class WhiteBoardManager : MonoBehaviour
 
         Debug.Log("Unedited budget is " + getBudget() + "   budget in $ is " + getBudget() * 312745);
 
-        foreach(Theme t in Enum.GetValues(typeof(Theme)))
+        float appealing = 0;
+        foreach(Idea i in whiteBoard)
+        {
+            appealing += i.appealing;
+        }
+
+        Debug.Log("Sum of appealing " + appealing);
+
+            foreach (Theme t in Enum.GetValues(typeof(Theme)))
         {
             int occurence = 0;
 

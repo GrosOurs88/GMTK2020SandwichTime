@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
-  m_Name: Pitch
+  m_Name: KidFantasy
   m_EditorClassIdentifier: 
-  text1: The plan is to make a Cow Boy movie
-  text2: And it would be great to have some nice landscapes
-  text3: The budget should be okay but don't push it over a million and a half
-  budgetMax: 27
-  audienceMax: 99
-  appealing: 18
-  themesWanted: 0300000005000000
-  themeOccurrence: 0e0000000a000000
+  text1: Okay so the movie must have some magic stuff ...
+  text2: It's a kid movie so obviously the age limit is 12
+  text3: Oh and did I mention we're short on budget ?
+  budgetMax: 20
+  audienceMax: 13
+  appealing: 99
+  themesWanted: 0600000002000000
+  themeOccurrence: 0f0000000f000000
