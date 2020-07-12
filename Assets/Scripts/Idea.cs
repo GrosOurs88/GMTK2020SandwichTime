@@ -10,7 +10,7 @@ public class Idea
     
     public string text;
     public float fontSize = 42, bubbleWidth; //bubbleWidth is a percentage
-    public int budgetChange, audienceChange, marketFitChange, prodValueChange;
+    public int budgetChange, pegi,appealing;
     public BubbleType bubbleType;
 
     [XmlArray("Themes")]
@@ -41,7 +41,12 @@ public enum BubbleType
 
 public enum Theme
 {
-    Count
+    pirate,
+    scifi,
+    fantasy,
+    space,
+    western,
+    count
 }
 
 
