@@ -25,6 +25,8 @@ public class Idea
     [XmlArrayItem("Event")]
     public Event[] events;
 
+    [XmlIgnore]
+    public Character selectedCharacter;
 
     //public Idea(string _text, float _fontSize, float _bubbleWidth, int _budgetChange, int _audienceChange, int _marketFitChange, int _prodValueChange, BubbleType _bubbleType)
     //{

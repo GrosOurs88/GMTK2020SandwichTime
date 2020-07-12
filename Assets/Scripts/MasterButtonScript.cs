@@ -14,9 +14,16 @@ public class MasterButtonScript : MonoBehaviour
     public Image canvasObjectifsBackground;
     public Image canvasWhiteboardBackground;
     public Image canvasRoomBackground;
+    public Image panelBlackscreenBackground;
     public float transitionTimeToObjectifCanvas;
     public float transitionTimeToGameCanvas;
+    public float transitionTimeToPitchCanvas;
     public GameObject panelTitle;
+    public GameObject panelPitchTitle_Pegi;
+    public GameObject panelPitchMoments;
+    public GameObject panelPitchBudgets;
+    public GameObject panelPitchNotation;
+    public Button buttonRestart;
     public Image image1;
     public Image image2;
     public Image image3;
@@ -56,12 +63,58 @@ public class MasterButtonScript : MonoBehaviour
         StartCoroutine("TransitionGameCanvas");
     }
 
+    public void TransitionToPitchCanvas()
+    {
+        StartCoroutine("TransitionPitchCanvas");
+    }
+
     public void TransitionToMeetingEnd()
     {
         canvasFinish.gameObject.SetActive(true);
         MasterSoundsScript.instance.PlayMeetingEnd();
         MasterSoundsScript.instance.PlayMeetingEndMusic();
     }
+
+    public IEnumerator TransitionPitchCanvas()
+    {
+        var tempColor = panelBlackscreenBackground.color;
+        tempColor.a = 0f;
+        panelBlackscreenBackground.color = tempColor;
+
+        panelBlackscreenBackground.gameObject.SetActive(true);
+        yield return null;
+
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / transitionTimeToPitchCanvas)
+        {
+            Color newColor = new Color(panelBlackscreenBackground.color.r, panelBlackscreenBackground.color.g, panelBlackscreenBackground.color.b, Mathf.Lerp(0f, 1f, t));
+            panelBlackscreenBackground.color = newColor;
+            yield return null;
+        }
+
+        canvasWhiteboard.gameObject.SetActive(false);
+        canvasRoom.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1f);
+        panelPitchTitle_Pegi.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
+        panelPitchTitle_Pegi.gameObject.SetActive(false);
+
+        panelPitchMoments.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
+        panelPitchMoments.gameObject.SetActive(false);
+
+        panelPitchBudgets.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
+        panelPitchBudgets.gameObject.SetActive(false);
+
+        panelPitchNotation.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
+        panelPitchNotation.gameObject.SetActive(false);
+
+        buttonRestart.gameObject.SetActive(true);
+        yield return null;
+    }
+
+
 
     public IEnumerator TransitionObjectivesCanvas()
     {
