@@ -22,7 +22,7 @@ public class RoomController : MonoBehaviour
 
     public void DisplayIdeaBubble (Idea idea)
     {
-        int character = idea.characters[Random.Range(0, idea.characters.Length)];
+        int character = (int)idea.characters[Random.Range(0, idea.characters.Length)];
         Bubble bubble = Instantiate(bubblePrefabs[character], bubblesContainer).GetComponent<Bubble>();
 
         bubble.Setup(idea, this);

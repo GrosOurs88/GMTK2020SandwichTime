@@ -8,11 +8,11 @@ public class Idea
 {
 
     
-    public string text;
-    public float fontSize = 42, bubbleWidth=1; //bubbleWidth is a percentage
-    public int budgetChange;
-    public int pegi;
-    public int appealing;
+    public string text, title; //the title is only one word
+    public int fontSize = 42; //bubbleWidth is a percentage
+    public int budgetChange = 0;
+    public int pegi = 0;
+    public int appealing = 0;
 
     [XmlArray("Themes")]
     [XmlArrayItem("Theme")]
@@ -20,7 +20,7 @@ public class Idea
 
     [XmlArray("Characters")]
     [XmlArrayItem("Character")]
-    public int[] characters;
+    public Character[] characters;
 
     [XmlArray("Events")]
     [XmlArrayItem("Event")]
