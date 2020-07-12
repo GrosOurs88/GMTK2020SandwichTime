@@ -201,6 +201,7 @@ public class MasterButtonScript : MonoBehaviour
         yield return new WaitForSeconds(0.75f);
         image3.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
+        startButton.gameObject.SetActive(true);
         startButton.interactable = true;
         yield return null;
     }
