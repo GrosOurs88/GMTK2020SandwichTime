@@ -47,9 +47,12 @@ public class IconsSpawner : MonoBehaviour
         QueueIconSpawn(IconType.Appeal, idea.appealing);
         QueueIconSpawn(IconType.Audience, idea.pegi);
 
-        foreach (Theme theme in idea.themes)
+        if (idea.themes != null)
         {
-            QueueIconSpawn(theme);
+            foreach (Theme theme in idea.themes)
+            {
+                QueueIconSpawn(theme);
+            }
         }
     }
     

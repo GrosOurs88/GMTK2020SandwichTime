@@ -262,6 +262,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8186416714303000368, guid: f84a6c64a3092c743a20c71b08f43f42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 295729057}
+    - target: {fileID: 8186416714303000368, guid: f84a6c64a3092c743a20c71b08f43f42,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TransitionToGameCanvas
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f84a6c64a3092c743a20c71b08f43f42, type: 3}
 --- !u!224 &181537315 stripped
@@ -1392,10 +1402,6 @@ PrefabInstance:
       propertyPath: roomController
       value: 
       objectReference: {fileID: 1186895252}
-    - target: {fileID: 2056774232, guid: aae81079c28236240b251ffe3b29dffd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -2.1000977
-      objectReference: {fileID: 0}
     - target: {fileID: 1588106535974375969, guid: aae81079c28236240b251ffe3b29dffd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1637,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: 5944282723982786821, guid: 86a5f790ad5a9584e85d37406b7d7b65,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.813
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5944282723982786821, guid: 86a5f790ad5a9584e85d37406b7d7b65,
         type: 3}
