@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text1: We want a pirate movie, but in the future
   text2: It must be flashy, don't worry we have unlimited budget
-  text3: sooo any ideas ?
+  text3: Sooo any ideas?
   budgetMax: 99
   audienceMax: 99
   appealing: 25
