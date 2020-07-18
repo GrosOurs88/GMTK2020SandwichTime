@@ -124,8 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb2a720e8f0633429715246e2d42a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToLive: 1
-  speed: 200
+  timeToLive: 2.5
+  speed: 150
   image: {fileID: 4496314741291946103}
   canvasGroup: {fileID: 6725215411657902122}
 --- !u!225 &6725215411657902122

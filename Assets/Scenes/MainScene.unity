@@ -157,6 +157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_Objectifs
       objectReference: {fileID: 0}
+    - target: {fileID: 8186416713798671442, guid: f84a6c64a3092c743a20c71b08f43f42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8186416713798671446, guid: f84a6c64a3092c743a20c71b08f43f42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -529,11 +534,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_MainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 7895719995230326736, guid: 881745b9ef15ec34d9cc424a213fb4c0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7895719995230326740, guid: 881745b9ef15ec34d9cc424a213fb4c0,
         type: 3}
@@ -1109,6 +1109,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 332939060}
     m_Modifications:
+    - target: {fileID: 600907612, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078966053, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1191589981, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 370.8
@@ -1117,6 +1125,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: -1191.5729
       objectReference: {fileID: 0}
+    - target: {fileID: 1191589982, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191589982, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323935253, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.z
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1665240087, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -173
@@ -1124,6 +1148,14 @@ PrefabInstance:
     - target: {fileID: 1665240087, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
       propertyPath: m_SizeDelta.y
       value: -1579.7573
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754694688, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
+      propertyPath: m_margin.z
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1890789367, guid: d9ed33950880ced40b03ae70b3d6fabd, type: 3}
       propertyPath: m_IsActive
@@ -1148,11 +1180,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_Finish
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139387474397517547, guid: d9ed33950880ced40b03ae70b3d6fabd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4139387474397517559, guid: d9ed33950880ced40b03ae70b3d6fabd,
         type: 3}
@@ -1512,6 +1539,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: canvas_Whiteboard
       objectReference: {fileID: 0}
+    - target: {fileID: 3087929743327059442, guid: aae81079c28236240b251ffe3b29dffd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aae81079c28236240b251ffe3b29dffd, type: 3}
 --- !u!224 &289207498059448330 stripped
@@ -1549,6 +1581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: canvas_Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408782258440925005, guid: 86a5f790ad5a9584e85d37406b7d7b65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5944282723982786821, guid: 86a5f790ad5a9584e85d37406b7d7b65,
         type: 3}

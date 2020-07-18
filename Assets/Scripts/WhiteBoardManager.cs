@@ -11,7 +11,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public Pitch objective;
 
-    private float budgetBase = 15;
+    private float budgetBase = 5;
     public void Start()
     {
         whiteBoard = new List<Idea>();
@@ -23,7 +23,7 @@ public class WhiteBoardManager : MonoBehaviour
         whiteBoard.Add(idea);
     }
 
-    public bool getResult()
+    public string getResult()
     {
         float budget = budgetBase;
         int pegi = 3;
@@ -93,8 +93,28 @@ public class WhiteBoardManager : MonoBehaviour
         //    }
         //}
 
-        
-        return budget <= objective.budgetMax && pegi <= objective.audienceMax && appealing >= objective.appealing && themeCheck;
+        Debug.Log("-- budget " + (budget <= objective.budgetMax) + "-- pegi " + (pegi <= objective.audienceMax) + "-- appeal " + (appealing >= objective.appealing) + "-- theme " + themeCheck);
+
+        string result = null;
+        Debug.Log(budget + " | " + objective.budgetMax);
+        if (budget <= objective.budgetMax)
+        {
+            result += "You've got over budget.\n";
+        }
+        if (pegi <= objective.audienceMax)
+        {
+            result += "This won't fit our audience.\n";
+        }
+        if (appealing >= objective.appealing)
+        {
+            result += "It's underwhelming.\n";
+        }
+        if (themeCheck)
+        {
+            result += "Have you forgot the theme?\n";
+        }
+
+        return result;
     }
 
     public string getTitle()
@@ -117,7 +137,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public string getMostAppealing()
     {
-        string ideaTitle = whiteBoard[0].title;
+        string ideaTitle = "nice things";
         float appeal = 0;
 
         foreach (Idea idea in whiteBoard)
@@ -132,19 +152,35 @@ public class WhiteBoardManager : MonoBehaviour
         return ideaTitle;
     }
 
-    public string getSecondMostAppealing()
+    public string getRandomIdea()
     {
-        return null;
+        string most_appealing = getMostAppealing();
+        string least_appealing = getLeastAppealing();
+        string ideaTitle = most_appealing;
+
+        if (whiteBoard.Count > 2)
+        {
+            while (ideaTitle == most_appealing || ideaTitle == least_appealing)
+            {
+                ideaTitle = whiteBoard[UnityEngine.Random.Range(0, whiteBoard.Count)].title;
+            }
+        }
+        else
+        {
+            ideaTitle = "some actors";
+        }
+
+        return ideaTitle;
     }
 
     public string getLeastAppealing()
     {
-        string ideaTitle = whiteBoard[0].title;
-        float appeal = 999999999999;
+        string ideaTitle = "yeah, that's all";
+        float appeal = float.MaxValue;
 
         foreach (Idea idea in whiteBoard)
         {
-            if (appeal < idea.appealing )
+            if (idea.appealing < appeal)
             {
                 appeal = idea.appealing;
                 ideaTitle = idea.title;
@@ -161,6 +197,11 @@ public class WhiteBoardManager : MonoBehaviour
         foreach(Idea i in whiteBoard)
         {
             total += i.budgetChange;
+        }
+
+        if (total < 1)
+        {
+            total = 1;
         }
 
         return total;

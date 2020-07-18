@@ -40,6 +40,7 @@ public class MasterButtonScript : MonoBehaviour
     public Image gamePegi;
     public TextMeshProUGUI memorableMoments;
     public TextMeshProUGUI budget;
+    public TextMeshProUGUI endReview;
     public Image notation;
 
 
@@ -136,17 +137,19 @@ public class MasterButtonScript : MonoBehaviour
 
         }
 
-        memorableMoments.text = "So our game is going to feature " + whiteBoardManager.getMostAppealing() + " and ... \n" + whiteBoardManager.getLeastAppealing();
+        memorableMoments.text = "Our game is going to feature\n" + whiteBoardManager.getMostAppealing() + ", \n" + whiteBoardManager.getRandomIdea() + " and... \n" + whiteBoardManager.getLeastAppealing();
 
-        budget.text = ("And we managed to reduce te budget to " + whiteBoardManager.getBudget() * 312745).ToString() + " $";
+        budget.text = "And we got our budget\nat " + (whiteBoardManager.getBudget() * 200000 + 10000 * Random.Range(0, 9) ).ToString("0,0") + " $";
 
-        if(whiteBoardManager.getResult())
+        string result = whiteBoardManager.getResult();
+        if  ( string.IsNullOrEmpty(result) )
         {
             notation.sprite = happyFace; // gagné :)
         }
         else
         {
             notation.sprite = unHaappyFace; // perdu :(
+            endReview.text = result;
         }
         //FILL Empty INfos
 
