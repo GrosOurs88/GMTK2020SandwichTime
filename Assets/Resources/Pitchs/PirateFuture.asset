@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
   m_Name: PirateFuture
   m_EditorClassIdentifier: 
-  text1: We want a pirate movie, but in the future
+  text1: We want a pirate movie, but set in the future
   text2: It must be flashy, don't worry we have unlimited budget
   text3: Sooo any ideas?
-  budgetMax: 99
+  budgetMax: 999
   audienceMax: 99
   appealing: 25
   themesWanted: 0000000001000000

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text1: Our next movie is going to be a romance, and we'll try get inspired from
     historical events
-  text2: We have a million and a half, so make it classy
+  text2: We have 40 millions, so make it classy
   text3: And don't be bothered to put some hot scenes in there
-  budgetMax: 25
+  budgetMax: 20
   audienceMax: 99
   appealing: 15
   themesWanted: 0800000004000000

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260602cf251ed7e42914dd0b83623f79, type: 3}
   m_Name: Pitch
   m_EditorClassIdentifier: 
-  text1: The plan is to make a Cow Boy movie
+  text1: The plan is to make a classic western
   text2: And it would be great to have some nice landscapes
-  text3: The budget should be okay but don't push it over a million and a half
-  budgetMax: 27
+  text3: The budget should be about 60 millions
+  budgetMax: 30
   audienceMax: 99
   appealing: 18
   themesWanted: 0300000005000000

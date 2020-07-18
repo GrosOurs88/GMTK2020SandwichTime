@@ -11,7 +11,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public Pitch objective;
 
-    private float budgetBase = 5;
+    private float budgetBase = 0;
     public void Start()
     {
         whiteBoard = new List<Idea>();
@@ -29,7 +29,6 @@ public class WhiteBoardManager : MonoBehaviour
         int pegi = 3;
         float appealing = 0;
         List<Theme> usedThemes = new List<Theme>();
-        //List<int> themeOccurrence = new List<int>();
 
         foreach (Idea idea in whiteBoard)
         {
@@ -47,23 +46,6 @@ public class WhiteBoardManager : MonoBehaviour
                     usedThemes.Add(t);
                 }
             }
-
-
-            //foreach(Theme t in idea.themes)
-            //{
-            //    int themeIndex = usedThemes.IndexOf(t);
-
-            //    if(themeIndex < 0)
-            //    {
-            //        usedThemes.Add(t);
-            //        themeOccurrence.Add(1);
-            //    }
-            //    else
-            //    {
-            //        themeOccurrence[themeIndex]++;
-            //    }
-            //}
-
         }
 
         bool themeCheck = true;
@@ -71,9 +53,9 @@ public class WhiteBoardManager : MonoBehaviour
         for (int i = 0; i < objective.themesWanted.Length; i++)
         {
             int count = 0;
-            foreach(Theme t2 in usedThemes)
+            foreach(Theme used_theme in usedThemes)
             {
-                if (t2 == objective.themesWanted[i])
+                if (used_theme == objective.themesWanted[i])
                     count++;
             }
 
@@ -81,35 +63,22 @@ public class WhiteBoardManager : MonoBehaviour
                 themeCheck = false;
         }
 
-        //for(int i = 0; i < objective.themesWanted.Length; i++ )
-        //{
-        //    if(usedThemes.IndexOf(objective.themesWanted[i]) < 0)
-        //    {
-        //        themeCheck = false;
-        //    }
-        //    else if( themeOccurrence[usedThemes.IndexOf(objective.themesWanted[i])] < objective.themeOccurrence[i])
-        //    {
-        //        themeCheck = false;
-        //    }
-        //}
-
-        Debug.Log("-- budget " + (budget <= objective.budgetMax) + "-- pegi " + (pegi <= objective.audienceMax) + "-- appeal " + (appealing >= objective.appealing) + "-- theme " + themeCheck);
-
+        
         string result = null;
-        Debug.Log(budget + " | " + objective.budgetMax);
-        if (budget <= objective.budgetMax)
+
+        if (budget > objective.budgetMax)
         {
             result += "You've got over budget.\n";
         }
-        if (pegi <= objective.audienceMax)
+        if (pegi > objective.audienceMax)
         {
             result += "This won't fit our audience.\n";
         }
-        if (appealing >= objective.appealing)
+        if (appealing < objective.appealing)
         {
             result += "It's underwhelming.\n";
         }
-        if (themeCheck)
+        if (!themeCheck)
         {
             result += "Have you forgot the theme?\n";
         }
@@ -119,7 +88,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public string getTitle()
     {
-        string[] titles = { "Our great movie" , "Your best blockbuster", "The future Oscar nominee"};
+        string[] titles = { "Untitled project", "Your next blockbuster", "Movie\n The movie", "A Palme D'Or Winner", "Future Oscar nominee", "Our great movie"};
         return titles[UnityEngine.Random.Range(0,titles.Length)];
     }
 
@@ -214,7 +183,7 @@ public class WhiteBoardManager : MonoBehaviour
 
         Debug.Log("number of selected ideas " + whiteBoard.Count);
 
-        Debug.Log("Unedited budget is " + getBudget() + "   budget in $ is " + getBudget() * 312745);
+        Debug.Log("Unedited budget is " + getBudget());
 
         float appealing = 0;
         foreach(Idea i in whiteBoard)
