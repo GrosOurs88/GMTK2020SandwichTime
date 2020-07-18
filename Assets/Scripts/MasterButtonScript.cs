@@ -137,9 +137,9 @@ public class MasterButtonScript : MonoBehaviour
 
         }
 
-        memorableMoments.text = "Our game is going to feature\n" + whiteBoardManager.getMostAppealing() + ", \n" + whiteBoardManager.getRandomIdea() + " and... \n" + whiteBoardManager.getLeastAppealing();
+        memorableMoments.text = "Our movie is going to feature\n" + whiteBoardManager.getMostAppealing() + ", \n" + whiteBoardManager.getRandomIdea() + " and... \n" + whiteBoardManager.getLeastAppealing();
 
-        budget.text = "And we got our budget\nat " + (whiteBoardManager.getBudget() * 200000 + 10000 * Random.Range(0, 9) ).ToString("0,0") + " $";
+        budget.text = "And we got our budget\nat " + (whiteBoardManager.getBudget() * 2000000 + 100000 * Random.Range(0, 9) ).ToString("0,0", System.Globalization.CultureInfo.InvariantCulture) + " $";
 
         string result = whiteBoardManager.getResult();
         if  ( string.IsNullOrEmpty(result) )

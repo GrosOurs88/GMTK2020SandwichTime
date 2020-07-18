@@ -42,12 +42,13 @@ public class TimerScript : MonoBehaviour
             MasterSoundsScript.instance.PlayMeetingAboutToEnd();
         }
 
-        
+        timerUI.text = ((int)timer).ToString();
 
-        float minutes = (int)(timer / 60);
-        float seconds = (int)(timer % 60);
 
-        timerUI.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        // float minutes = (int)(timer / 60);
+        // float seconds = (int)(timer % 60);
+
+        //timerUI.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
     }
 }

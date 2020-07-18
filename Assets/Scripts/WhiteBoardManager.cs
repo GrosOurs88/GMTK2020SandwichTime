@@ -11,7 +11,7 @@ public class WhiteBoardManager : MonoBehaviour
 
     public Pitch objective;
 
-    private float budgetBase = 0;
+    private float budgetBase = 1;
     public void Start()
     {
         whiteBoard = new List<Idea>();
