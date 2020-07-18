@@ -24,9 +24,9 @@ public class MasterButtonScript : MonoBehaviour
     public GameObject panelPitchBudgets;
     public GameObject panelPitchNotation;
     public Button buttonRestart;
-    public Image image1;
-    public Image image2;
-    public Image image3;
+    public GameObject postIt1;
+    public GameObject postIt2;
+    public GameObject postIt3;
     public Button startButton;
 
     public BrainstormManager brainstormManager;
@@ -56,9 +56,9 @@ public class MasterButtonScript : MonoBehaviour
     {
         brainstormManager = GameObject.Find("BrainstormManager").GetComponent<BrainstormManager>();
 
-        image1.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text1;
-        image2.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text2;
-        image3.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text3;
+        postIt1.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text1;
+        postIt2.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text2;
+        postIt3.transform.GetComponentInChildren<TextMeshProUGUI>().text = brainstormManager.selectedPitch.text3;
     }
 
     private void Update()
@@ -195,11 +195,11 @@ public class MasterButtonScript : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         panelTitle.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
-        image1.gameObject.SetActive(true);
+        postIt1.SetActive(true);
         yield return new WaitForSeconds(0.75f);
-        image2.gameObject.SetActive(true);
+        postIt2.SetActive(true);
         yield return new WaitForSeconds(0.75f);
-        image3.gameObject.SetActive(true);
+        postIt3.SetActive(true);
         yield return new WaitForSeconds(1f);
         startButton.gameObject.SetActive(true);
         startButton.interactable = true;
