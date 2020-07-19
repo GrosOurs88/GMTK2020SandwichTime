@@ -549,6 +549,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 9081664689839041297}
+    - target: {fileID: 5623814038069346976, guid: 881745b9ef15ec34d9cc424a213fb4c0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7895719995178658436, guid: 881745b9ef15ec34d9cc424a213fb4c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -563,6 +568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7895719995230326736, guid: 881745b9ef15ec34d9cc424a213fb4c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7895719995230326740, guid: 881745b9ef15ec34d9cc424a213fb4c0,
         type: 3}
@@ -664,6 +674,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 9081664689839041297}
+    - target: {fileID: 7974596020681257428, guid: 881745b9ef15ec34d9cc424a213fb4c0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: -50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881745b9ef15ec34d9cc424a213fb4c0, type: 3}
 --- !u!224 &332674746 stripped

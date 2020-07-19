@@ -9,6 +9,7 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
 {
     public Idea myIdea;
     public RoomController roomController;
+    public Animator myAnimator;
 
     public TMP_Text text;
     public CanvasGroup canvasGroup;
@@ -127,6 +128,11 @@ public class Bubble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         roomController.DiscardIdeaBubble(myIdea, this);
         Destroy(gameObject, fadeOutTime + 1f);
         StartCoroutine("FadeOutAndDie", exit_direction);
+    }
+
+    public void DeactivateAnimator()
+    {
+        myAnimator.enabled = false;
     }
 
     private void Update()
